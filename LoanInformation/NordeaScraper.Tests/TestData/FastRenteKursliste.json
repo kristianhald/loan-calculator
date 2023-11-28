@@ -1,0 +1,138 @@
+﻿[
+  {
+    "rate": "*&nbsp;102,650",
+    "fundName": "3,50% NORDEA KREDIT ANNOA10SDRO OA10S",
+    "frequency": "null",
+    "loanPeriodMax": "30",
+    "repaymentFreedomMax": "10",
+    "isinCode": "203351"
+  },
+  {
+    "rate": "97,125",
+    "fundName": "2,00 NORDEA KREDIT REALKREDIT IO 2047",
+    "frequency": "null",
+    "loanPeriodMax": "30",
+    "repaymentFreedomMax": "10",
+    "isinCode": "203289"
+  },
+  {
+    "rate": "*&nbsp;102,855",
+    "fundName": "3,50% NORDEA KREDIT ANN SDRO SDRO 47",
+    "frequency": "null",
+    "loanPeriodMax": "30",
+    "repaymentFreedomMax": "Nej",
+    "isinCode": "203378"
+  },
+  {
+    "rate": "98,500",
+    "fundName": "2,00 NORDEA KREDIT REALKREDIT 2047",
+    "frequency": "null",
+    "loanPeriodMax": "30",
+    "repaymentFreedomMax": "Nej",
+    "isinCode": "203297"
+  },
+  {
+    "rate": "*&nbsp;99,306",
+    "fundName": "1,50 NORDEA KREDIT REALKREDIT 2037",
+    "frequency": "null",
+    "loanPeriodMax": "20",
+    "repaymentFreedomMax": "Nej",
+    "isinCode": "203300"
+  },
+  {
+    "rate": "*&nbsp;99,306",
+    "fundName": "1,50 NORDEA KREDIT REALKREDIT 2037",
+    "frequency": "null",
+    "loanPeriodMax": "15",
+    "repaymentFreedomMax": "Nej",
+    "isinCode": "203300"
+  },
+  {
+    "rate": "*&nbsp;99,306",
+    "fundName": "1,50 NORDEA KREDIT REALKREDIT 2037",
+    "frequency": "null",
+    "loanPeriodMax": "10",
+    "repaymentFreedomMax": "Nej",
+    "isinCode": "203300"
+  },
+  {
+    "rate": "102,250",
+    "fundName": "3,00 NORDEA KREDIT ANNOA10 SDRO 2047 <sup> 2)</sup>",
+    "frequency": "null",
+    "loanPeriodMax": "30",
+    "repaymentFreedomMax": "10",
+    "isinCode": "203041"
+  },
+  {
+    "rate": "100,550",
+    "fundName": "2,50 NORDEA KREDIT SDRO IO 2047 <sup> 2)</sup>",
+    "frequency": "null",
+    "loanPeriodMax": "30",
+    "repaymentFreedomMax": "10",
+    "isinCode": "203084"
+  },
+  {
+    "rate": "103,175",
+    "fundName": "3,00 NORDEA KREDIT ANN SDRO 2047 <sup> 2)</sup>",
+    "frequency": "null",
+    "loanPeriodMax": "30",
+    "repaymentFreedomMax": "Nej",
+    "isinCode": "203033"
+  },
+  {
+    "rate": "101,700",
+    "fundName": "2,50 NORDEA KREDIT ANN SDRO 2047 <sup> 2)</sup>",
+    "frequency": "null",
+    "loanPeriodMax": "30",
+    "repaymentFreedomMax": "Nej",
+    "isinCode": "203068"
+  },
+  {
+    "rate": "103,000",
+    "fundName": "2,50 NORDEA KREDIT ANN SDRO 2037 <sup> 2)</sup>",
+    "frequency": "null",
+    "loanPeriodMax": "20",
+    "repaymentFreedomMax": "Nej",
+    "isinCode": "203025"
+  },
+  {
+    "rate": "101,625",
+    "fundName": "2,00 NORDEA KREDIT ANN SDRO 2037 <sup> 2)</sup>",
+    "frequency": "null",
+    "loanPeriodMax": "20",
+    "repaymentFreedomMax": "Nej",
+    "isinCode": "203076"
+  },
+  {
+    "rate": "102,950",
+    "fundName": "2,00 NORDEA KREDIT ANN SDRO 2032 <sup> 2)</sup>",
+    "frequency": "null",
+    "loanPeriodMax": "15",
+    "repaymentFreedomMax": "Nej",
+    "isinCode": "203017"
+  },
+  {
+    "rate": "101,625",
+    "fundName": "2,00 NORDEA KREDIT ANN SDRO 2037 <sup> 2)</sup>",
+    "frequency": "null",
+    "loanPeriodMax": "15",
+    "repaymentFreedomMax": "Nej",
+    "isinCode": "203076"
+  },
+  {
+    "rate": "102,950",
+    "fundName": "2,00 NORDEA KREDIT ANN SDRO 2032 <sup> 2)</sup>",
+    "frequency": "null",
+    "loanPeriodMax": "10",
+    "repaymentFreedomMax": "Nej",
+    "isinCode": "203017"
+  },
+  {
+    "rate": "101,625",
+    "fundName": "2,00 NORDEA KREDIT ANN SDRO 2037 <sup> 2)</sup>",
+    "frequency": "null",
+    "loanPeriodMax": "10",
+    "repaymentFreedomMax": "Nej",
+    "isinCode": "203076"
+  }
+]

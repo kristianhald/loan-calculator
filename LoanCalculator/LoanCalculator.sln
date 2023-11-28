@@ -1,0 +1,276 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterestCalculator", "InterestCalculator\InterestCalculator.csproj", "{3757C146-0E9D-41E0-AB83-7ABFDF3C98EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterestCalculator.Tests", "InterestCalculator.Tests\InterestCalculator.Tests.csproj", "{8F016213-FF62-462D-B77B-B1F903FF5B82}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{D415085B-5555-4001-BC54-05E5F5A72376}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation\Example 1 - Realkredit Danmark.txt = Documentation\Example 1 - Realkredit Danmark.txt
+		Documentation\Example 2 - Realkredit Danmark - 2.5Percent 3.105.100 Fastforrentet 30 year.txt = Documentation\Example 2 - Realkredit Danmark - 2.5Percent 3.105.100 Fastforrentet 30 year.txt
+		Documentation\Realkredit Danmark - 2.5Percent 3.105.100 Fastforrentet 30 year - 1.txt = Documentation\Realkredit Danmark - 2.5Percent 3.105.100 Fastforrentet 30 year - 1.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Realkredit Danmark Examples", "Realkredit Danmark Examples", "{DAA395E1-6144-4A55-8404-8D4A0E98F0C4}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation\Realkredit Danmark Examples\60% fastforrentet lån og 20% Danske Prioritet Plus (eksempel 3) (1).pdf = Documentation\Realkredit Danmark Examples\60% fastforrentet lån og 20% Danske Prioritet Plus (eksempel 3) (1).pdf
+		Documentation\Realkredit Danmark Examples\Example 1 - Udbetaling 850.000 kr. - fastforrentet lån (eksempel 1 og 3)- og kombilån (eksempel 2) (1).pdf = Documentation\Realkredit Danmark Examples\Example 1 - Udbetaling 850.000 kr. - fastforrentet lån (eksempel 1 og 3)- og kombilån (eksempel 2) (1).pdf
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Totalkredit Examples", "Totalkredit Examples", "{D0F5309A-C629-46E5-8543-B550F43E581C}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation\Totalkredit Examples\Example 2 - F3 med afdrag 30 år.PNG = Documentation\Totalkredit Examples\Example 2 - F3 med afdrag 30 år.PNG
+		Documentation\Totalkredit Examples\TotalKredit - 3.0Percent 3.124.000 Fastforrentet 30 year.pdf = Documentation\Totalkredit Examples\TotalKredit - 3.0Percent 3.124.000 Fastforrentet 30 year.pdf
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mockups", "Mockups", "{95D1E522-E7B0-4F31-96E7-150090C99367}"
+	ProjectSection(SolutionItems) = preProject
+		Mockups\2 Loan calculated.png = Mockups\2 Loan calculated.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NordeaKredit", "NordeaKredit", "{7409EB68-B6FE-4CA6-8C18-8197DF0AA89C}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation\NordeaKredit\Example 1 - Fastforrentet 2.5 procent 30 år.PNG = Documentation\NordeaKredit\Example 1 - Fastforrentet 2.5 procent 30 år.PNG
+		Documentation\NordeaKredit\Example 2 - F3 Afdrag 30 år.pdf = Documentation\NordeaKredit\Example 2 - F3 Afdrag 30 år.pdf
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BrfKredit", "BrfKredit", "{4CA0ABA2-8B5D-4350-BA11-89830200F431}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation\BrfKredit\Example 1 - 2.5 procent fastforrentet 30 år.pdf = Documentation\BrfKredit\Example 1 - 2.5 procent fastforrentet 30 år.pdf
+		Documentation\BrfKredit\Example 2 - F3 30 år.pdf = Documentation\BrfKredit\Example 2 - F3 30 år.pdf
+		Documentation\BrfKredit\Example 3 - 1 procent fastforrentet 10 år.pdf = Documentation\BrfKredit\Example 3 - 1 procent fastforrentet 10 år.pdf
+		Documentation\BrfKredit\Example 4 - F5 30 år.pdf = Documentation\BrfKredit\Example 4 - F5 30 år.pdf
+		Documentation\BrfKredit\Example 5 - F5 5 år.pdf = Documentation\BrfKredit\Example 5 - F5 5 år.pdf
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Website", "Website\Website.csproj", "{22AF3D9D-2AE3-4596-B801-7A8D5D41D1FB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2016-04-02", "2016-04-02", "{139282C1-2040-483C-B821-3F9E25F7BEA7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Fastrente", "Fastrente", "{C441C578-894B-48EB-996D-D19F324D3C6D}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation\BrfKredit\2016-04-02\Fastrente\Fastrente 1.5Procent 30 år.pdf = Documentation\BrfKredit\2016-04-02\Fastrente\Fastrente 1.5Procent 30 år.pdf
+		Documentation\BrfKredit\2016-04-02\Fastrente\Fastrente 1Procent 10 år.pdf = Documentation\BrfKredit\2016-04-02\Fastrente\Fastrente 1Procent 10 år.pdf
+		Documentation\BrfKredit\2016-04-02\Fastrente\Fastrente 1Procent 15 år.pdf = Documentation\BrfKredit\2016-04-02\Fastrente\Fastrente 1Procent 15 år.pdf
+		Documentation\BrfKredit\2016-04-02\Fastrente\Fastrente 1Procent 5 år.pdf = Documentation\BrfKredit\2016-04-02\Fastrente\Fastrente 1Procent 5 år.pdf
+		Documentation\BrfKredit\2016-04-02\Fastrente\Fastrente 2.5Procent 30 år.pdf = Documentation\BrfKredit\2016-04-02\Fastrente\Fastrente 2.5Procent 30 år.pdf
+		Documentation\BrfKredit\2016-04-02\Fastrente\Fastrente 2Procent 15 år.pdf = Documentation\BrfKredit\2016-04-02\Fastrente\Fastrente 2Procent 15 år.pdf
+		Documentation\BrfKredit\2016-04-02\Fastrente\Fastrente 2Procent 20 år.pdf = Documentation\BrfKredit\2016-04-02\Fastrente\Fastrente 2Procent 20 år.pdf
+		Documentation\BrfKredit\2016-04-02\Fastrente\Fastrente 2Procent 30 år.pdf = Documentation\BrfKredit\2016-04-02\Fastrente\Fastrente 2Procent 30 år.pdf
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Flex", "Flex", "{019A2688-268C-4A80-AC89-7A0E74351614}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation\BrfKredit\2016-04-02\Flex\F1 10 år.pdf = Documentation\BrfKredit\2016-04-02\Flex\F1 10 år.pdf
+		Documentation\BrfKredit\2016-04-02\Flex\F1 15 år.pdf = Documentation\BrfKredit\2016-04-02\Flex\F1 15 år.pdf
+		Documentation\BrfKredit\2016-04-02\Flex\F1 20 år.pdf = Documentation\BrfKredit\2016-04-02\Flex\F1 20 år.pdf
+		Documentation\BrfKredit\2016-04-02\Flex\F1 30 år.pdf = Documentation\BrfKredit\2016-04-02\Flex\F1 30 år.pdf
+		Documentation\BrfKredit\2016-04-02\Flex\F3 10 år.pdf = Documentation\BrfKredit\2016-04-02\Flex\F3 10 år.pdf
+		Documentation\BrfKredit\2016-04-02\Flex\F3 15 år.pdf = Documentation\BrfKredit\2016-04-02\Flex\F3 15 år.pdf
+		Documentation\BrfKredit\2016-04-02\Flex\F3 20 år.pdf = Documentation\BrfKredit\2016-04-02\Flex\F3 20 år.pdf
+		Documentation\BrfKredit\2016-04-02\Flex\F3 30 år.pdf = Documentation\BrfKredit\2016-04-02\Flex\F3 30 år.pdf
+		Documentation\BrfKredit\2016-04-02\Flex\F5 10 år.pdf = Documentation\BrfKredit\2016-04-02\Flex\F5 10 år.pdf
+		Documentation\BrfKredit\2016-04-02\Flex\F5 15 år.pdf = Documentation\BrfKredit\2016-04-02\Flex\F5 15 år.pdf
+		Documentation\BrfKredit\2016-04-02\Flex\F5 20 år.pdf = Documentation\BrfKredit\2016-04-02\Flex\F5 20 år.pdf
+		Documentation\BrfKredit\2016-04-02\Flex\F5 30 år.pdf = Documentation\BrfKredit\2016-04-02\Flex\F5 30 år.pdf
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kort lån", "Kort lån", "{B4BAF16A-027D-46BA-9044-E81D3E370B73}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation\BrfKredit\2016-04-02\Kort lån\Kortlån 10 år.pdf = Documentation\BrfKredit\2016-04-02\Kort lån\Kortlån 10 år.pdf
+		Documentation\BrfKredit\2016-04-02\Kort lån\Kortlån 15 år.pdf = Documentation\BrfKredit\2016-04-02\Kort lån\Kortlån 15 år.pdf
+		Documentation\BrfKredit\2016-04-02\Kort lån\Kortlån 20 år.pdf = Documentation\BrfKredit\2016-04-02\Kort lån\Kortlån 20 år.pdf
+		Documentation\BrfKredit\2016-04-02\Kort lån\Kortlån 30 år.pdf = Documentation\BrfKredit\2016-04-02\Kort lån\Kortlån 30 år.pdf
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2016-04-02", "2016-04-02", "{74BA4CDD-0679-48CC-944B-3D55EF83A81A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Fastrente", "Fastrente", "{AE39DF3C-BF68-4671-B75F-42711437B142}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation\NordeaKredit\2016-04-02\Fastrente\Fastrente 2.5Procent 20 år.pdf = Documentation\NordeaKredit\2016-04-02\Fastrente\Fastrente 2.5Procent 20 år.pdf
+		Documentation\NordeaKredit\2016-04-02\Fastrente\Fastrente 2.5Procent 30 år.pdf = Documentation\NordeaKredit\2016-04-02\Fastrente\Fastrente 2.5Procent 30 år.pdf
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Flex", "Flex", "{DCE52DA9-6E97-4064-8A47-AD6BE16E9E88}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation\NordeaKredit\2016-04-02\Flex\F3 20 år.pdf = Documentation\NordeaKredit\2016-04-02\Flex\F3 20 år.pdf
+		Documentation\NordeaKredit\2016-04-02\Flex\F3 30 år.pdf = Documentation\NordeaKredit\2016-04-02\Flex\F3 30 år.pdf
+		Documentation\NordeaKredit\2016-04-02\Flex\F5 20 år.pdf = Documentation\NordeaKredit\2016-04-02\Flex\F5 20 år.pdf
+		Documentation\NordeaKredit\2016-04-02\Flex\F5 30 år.pdf = Documentation\NordeaKredit\2016-04-02\Flex\F5 30 år.pdf
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kort lån", "Kort lån", "{181883BD-0068-428B-943E-5093A98403E4}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation\NordeaKredit\2016-04-02\Kort lån\Kortlån 20 år.pdf = Documentation\NordeaKredit\2016-04-02\Kort lån\Kortlån 20 år.pdf
+		Documentation\NordeaKredit\2016-04-02\Kort lån\Kortlån 30 år.pdf = Documentation\NordeaKredit\2016-04-02\Kort lån\Kortlån 30 år.pdf
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2016-04-02", "2016-04-02", "{F8104BA0-E794-41B9-9BDB-2DAE77E051B1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Fastrente", "Fastrente", "{90BAC0E4-7665-40F2-9347-1532823205AD}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation\Realkredit Danmark Examples\2016-04-02\Fastrente\Fastrente 1Procent 10 år - detaljer.pdf = Documentation\Realkredit Danmark Examples\2016-04-02\Fastrente\Fastrente 1Procent 10 år - detaljer.pdf
+		Documentation\Realkredit Danmark Examples\2016-04-02\Fastrente\Fastrente 1Procent 10 år - omkostninger.pdf = Documentation\Realkredit Danmark Examples\2016-04-02\Fastrente\Fastrente 1Procent 10 år - omkostninger.pdf
+		Documentation\Realkredit Danmark Examples\2016-04-02\Fastrente\Fastrente 1Procent 10 år - terminer.pdf = Documentation\Realkredit Danmark Examples\2016-04-02\Fastrente\Fastrente 1Procent 10 år - terminer.pdf
+		Documentation\Realkredit Danmark Examples\2016-04-02\Fastrente\Fastrente 1Procent 15 år - detaljer.pdf = Documentation\Realkredit Danmark Examples\2016-04-02\Fastrente\Fastrente 1Procent 15 år - detaljer.pdf
+		Documentation\Realkredit Danmark Examples\2016-04-02\Fastrente\Fastrente 1Procent 15 år - omkostninger.pdf = Documentation\Realkredit Danmark Examples\2016-04-02\Fastrente\Fastrente 1Procent 15 år - omkostninger.pdf
+		Documentation\Realkredit Danmark Examples\2016-04-02\Fastrente\Fastrente 1Procent 15 år - terminer.pdf = Documentation\Realkredit Danmark Examples\2016-04-02\Fastrente\Fastrente 1Procent 15 år - terminer.pdf
+		Documentation\Realkredit Danmark Examples\2016-04-02\Fastrente\Fastrente 2.5Procent 20 år - detaljer.pdf = Documentation\Realkredit Danmark Examples\2016-04-02\Fastrente\Fastrente 2.5Procent 20 år - detaljer.pdf
+		Documentation\Realkredit Danmark Examples\2016-04-02\Fastrente\Fastrente 2.5Procent 20 år - omkostninger.pdf = Documentation\Realkredit Danmark Examples\2016-04-02\Fastrente\Fastrente 2.5Procent 20 år - omkostninger.pdf
+		Documentation\Realkredit Danmark Examples\2016-04-02\Fastrente\Fastrente 2.5Procent 20 år - terminer.pdf = Documentation\Realkredit Danmark Examples\2016-04-02\Fastrente\Fastrente 2.5Procent 20 år - terminer.pdf
+		Documentation\Realkredit Danmark Examples\2016-04-02\Fastrente\Fastrente 2.5Procent 30 år - detaljer.pdf = Documentation\Realkredit Danmark Examples\2016-04-02\Fastrente\Fastrente 2.5Procent 30 år - detaljer.pdf
+		Documentation\Realkredit Danmark Examples\2016-04-02\Fastrente\Fastrente 2.5Procent 30 år - omkostninger.pdf = Documentation\Realkredit Danmark Examples\2016-04-02\Fastrente\Fastrente 2.5Procent 30 år - omkostninger.pdf
+		Documentation\Realkredit Danmark Examples\2016-04-02\Fastrente\Fastrente 2.5Procent 30 år - terminer.pdf = Documentation\Realkredit Danmark Examples\2016-04-02\Fastrente\Fastrente 2.5Procent 30 år - terminer.pdf
+		Documentation\Realkredit Danmark Examples\2016-04-02\Fastrente\Fastrente 2Procent 10 år - detaljer.pdf = Documentation\Realkredit Danmark Examples\2016-04-02\Fastrente\Fastrente 2Procent 10 år - detaljer.pdf
+		Documentation\Realkredit Danmark Examples\2016-04-02\Fastrente\Fastrente 2Procent 10 år - omkostninger.pdf = Documentation\Realkredit Danmark Examples\2016-04-02\Fastrente\Fastrente 2Procent 10 år - omkostninger.pdf
+		Documentation\Realkredit Danmark Examples\2016-04-02\Fastrente\Fastrente 2Procent 10 år - terminer.pdf = Documentation\Realkredit Danmark Examples\2016-04-02\Fastrente\Fastrente 2Procent 10 år - terminer.pdf
+		Documentation\Realkredit Danmark Examples\2016-04-02\Fastrente\Fastrente 2Procent 15 år - detaljer.pdf = Documentation\Realkredit Danmark Examples\2016-04-02\Fastrente\Fastrente 2Procent 15 år - detaljer.pdf
+		Documentation\Realkredit Danmark Examples\2016-04-02\Fastrente\Fastrente 2Procent 15 år - omkostninger.pdf = Documentation\Realkredit Danmark Examples\2016-04-02\Fastrente\Fastrente 2Procent 15 år - omkostninger.pdf
+		Documentation\Realkredit Danmark Examples\2016-04-02\Fastrente\Fastrente 2Procent 15 år - terminer.pdf = Documentation\Realkredit Danmark Examples\2016-04-02\Fastrente\Fastrente 2Procent 15 år - terminer.pdf
+		Documentation\Realkredit Danmark Examples\2016-04-02\Fastrente\Fastrente 2Procent 20 år - detaljer.pdf = Documentation\Realkredit Danmark Examples\2016-04-02\Fastrente\Fastrente 2Procent 20 år - detaljer.pdf
+		Documentation\Realkredit Danmark Examples\2016-04-02\Fastrente\Fastrente 2Procent 20 år - omkostninger.pdf = Documentation\Realkredit Danmark Examples\2016-04-02\Fastrente\Fastrente 2Procent 20 år - omkostninger.pdf
+		Documentation\Realkredit Danmark Examples\2016-04-02\Fastrente\Fastrente 2Procent 20 år - terminer.pdf = Documentation\Realkredit Danmark Examples\2016-04-02\Fastrente\Fastrente 2Procent 20 år - terminer.pdf
+		Documentation\Realkredit Danmark Examples\2016-04-02\Fastrente\Fastrente 2Procent 30 år - detaljer.pdf = Documentation\Realkredit Danmark Examples\2016-04-02\Fastrente\Fastrente 2Procent 30 år - detaljer.pdf
+		Documentation\Realkredit Danmark Examples\2016-04-02\Fastrente\Fastrente 2Procent 30 år - omkostninger.pdf = Documentation\Realkredit Danmark Examples\2016-04-02\Fastrente\Fastrente 2Procent 30 år - omkostninger.pdf
+		Documentation\Realkredit Danmark Examples\2016-04-02\Fastrente\Fastrente 2Procent 30 år - terminer.pdf = Documentation\Realkredit Danmark Examples\2016-04-02\Fastrente\Fastrente 2Procent 30 år - terminer.pdf
+		Documentation\Realkredit Danmark Examples\2016-04-02\Fastrente\Fastrente 3Procent 30 år - detaljer.pdf = Documentation\Realkredit Danmark Examples\2016-04-02\Fastrente\Fastrente 3Procent 30 år - detaljer.pdf
+		Documentation\Realkredit Danmark Examples\2016-04-02\Fastrente\Fastrente 3Procent 30 år - omkostninger.pdf = Documentation\Realkredit Danmark Examples\2016-04-02\Fastrente\Fastrente 3Procent 30 år - omkostninger.pdf
+		Documentation\Realkredit Danmark Examples\2016-04-02\Fastrente\Fastrente 3Procent 30 år - terminer.pdf = Documentation\Realkredit Danmark Examples\2016-04-02\Fastrente\Fastrente 3Procent 30 år - terminer.pdf
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2016-04-02", "2016-04-02", "{EBC2C77A-6CCC-4190-ACBD-351ECBA0BE08}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Fastrente", "Fastrente", "{FCF06659-3E78-4D29-86A1-E4B6EBFB6E1C}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation\Totalkredit Examples\2016-04-02\Fastrente\Fastrente 2.5Procent 30 år uden afdrag 10 år.pdf = Documentation\Totalkredit Examples\2016-04-02\Fastrente\Fastrente 2.5Procent 30 år uden afdrag 10 år.pdf
+		Documentation\Totalkredit Examples\2016-04-02\Fastrente\Fastrente 2.5Procent 30 år.pdf = Documentation\Totalkredit Examples\2016-04-02\Fastrente\Fastrente 2.5Procent 30 år.pdf
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Flex", "Flex", "{91094E31-FBB6-4170-BCC2-623486D8D1A9}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation\Totalkredit Examples\2016-04-02\Flex\F3 30 år afdragsfrit 10 år.pdf = Documentation\Totalkredit Examples\2016-04-02\Flex\F3 30 år afdragsfrit 10 år.pdf
+		Documentation\Totalkredit Examples\2016-04-02\Flex\F3 30 år.pdf = Documentation\Totalkredit Examples\2016-04-02\Flex\F3 30 år.pdf
+		Documentation\Totalkredit Examples\2016-04-02\Flex\F5 30 år afdragsfrit 10 år.pdf = Documentation\Totalkredit Examples\2016-04-02\Flex\F5 30 år afdragsfrit 10 år.pdf
+		Documentation\Totalkredit Examples\2016-04-02\Flex\F5 30 år.pdf = Documentation\Totalkredit Examples\2016-04-02\Flex\F5 30 år.pdf
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kort lån", "Kort lån", "{FD6D14B7-D783-42CF-A67D-FA7BC1E48826}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation\Totalkredit Examples\2016-04-02\Kort lån\Kortlån 30 år afdragsfrit 10 år.pdf = Documentation\Totalkredit Examples\2016-04-02\Kort lån\Kortlån 30 år afdragsfrit 10 år.pdf
+		Documentation\Totalkredit Examples\2016-04-02\Kort lån\Kortlån 30 år.pdf = Documentation\Totalkredit Examples\2016-04-02\Kort lån\Kortlån 30 år.pdf
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2016-04-03", "2016-04-03", "{84187FF8-5F3E-4B89-ADED-ADC1A42FE3BB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Flex", "Flex", "{133E2ECF-4ED0-494F-8ABB-D9D6A23EEECB}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation\Realkredit Danmark Examples\2016-04-03\Flex\F1 10 år - Detaljer.pdf = Documentation\Realkredit Danmark Examples\2016-04-03\Flex\F1 10 år - Detaljer.pdf
+		Documentation\Realkredit Danmark Examples\2016-04-03\Flex\F1 10 år - Omkostninger.pdf = Documentation\Realkredit Danmark Examples\2016-04-03\Flex\F1 10 år - Omkostninger.pdf
+		Documentation\Realkredit Danmark Examples\2016-04-03\Flex\F1 10 år - Terminer.pdf = Documentation\Realkredit Danmark Examples\2016-04-03\Flex\F1 10 år - Terminer.pdf
+		Documentation\Realkredit Danmark Examples\2016-04-03\Flex\F1 15 år - Detaljer.pdf = Documentation\Realkredit Danmark Examples\2016-04-03\Flex\F1 15 år - Detaljer.pdf
+		Documentation\Realkredit Danmark Examples\2016-04-03\Flex\F1 15 år - Omkostninger.pdf = Documentation\Realkredit Danmark Examples\2016-04-03\Flex\F1 15 år - Omkostninger.pdf
+		Documentation\Realkredit Danmark Examples\2016-04-03\Flex\F1 15 år - Terminer.pdf = Documentation\Realkredit Danmark Examples\2016-04-03\Flex\F1 15 år - Terminer.pdf
+		Documentation\Realkredit Danmark Examples\2016-04-03\Flex\F1 20 år - Detaljer.pdf = Documentation\Realkredit Danmark Examples\2016-04-03\Flex\F1 20 år - Detaljer.pdf
+		Documentation\Realkredit Danmark Examples\2016-04-03\Flex\F1 20 år - Omkostninger.pdf = Documentation\Realkredit Danmark Examples\2016-04-03\Flex\F1 20 år - Omkostninger.pdf
+		Documentation\Realkredit Danmark Examples\2016-04-03\Flex\F1 20 år - Terminer.pdf = Documentation\Realkredit Danmark Examples\2016-04-03\Flex\F1 20 år - Terminer.pdf
+		Documentation\Realkredit Danmark Examples\2016-04-03\Flex\F1 30 år - Detaljer.pdf = Documentation\Realkredit Danmark Examples\2016-04-03\Flex\F1 30 år - Detaljer.pdf
+		Documentation\Realkredit Danmark Examples\2016-04-03\Flex\F1 30 år - Omkostninger.pdf = Documentation\Realkredit Danmark Examples\2016-04-03\Flex\F1 30 år - Omkostninger.pdf
+		Documentation\Realkredit Danmark Examples\2016-04-03\Flex\F1 30 år - Terminer.pdf = Documentation\Realkredit Danmark Examples\2016-04-03\Flex\F1 30 år - Terminer.pdf
+		Documentation\Realkredit Danmark Examples\2016-04-03\Flex\F3 10 år - Detaljer.pdf = Documentation\Realkredit Danmark Examples\2016-04-03\Flex\F3 10 år - Detaljer.pdf
+		Documentation\Realkredit Danmark Examples\2016-04-03\Flex\F3 10 år - Omkostninger.pdf = Documentation\Realkredit Danmark Examples\2016-04-03\Flex\F3 10 år - Omkostninger.pdf
+		Documentation\Realkredit Danmark Examples\2016-04-03\Flex\F3 10 år - Terminer.pdf = Documentation\Realkredit Danmark Examples\2016-04-03\Flex\F3 10 år - Terminer.pdf
+		Documentation\Realkredit Danmark Examples\2016-04-03\Flex\F3 15 år - Detaljer.pdf = Documentation\Realkredit Danmark Examples\2016-04-03\Flex\F3 15 år - Detaljer.pdf
+		Documentation\Realkredit Danmark Examples\2016-04-03\Flex\F3 15 år - Omkostninger.pdf = Documentation\Realkredit Danmark Examples\2016-04-03\Flex\F3 15 år - Omkostninger.pdf
+		Documentation\Realkredit Danmark Examples\2016-04-03\Flex\F3 15 år - Terminer.pdf = Documentation\Realkredit Danmark Examples\2016-04-03\Flex\F3 15 år - Terminer.pdf
+		Documentation\Realkredit Danmark Examples\2016-04-03\Flex\F3 20 år - Detaljer.pdf = Documentation\Realkredit Danmark Examples\2016-04-03\Flex\F3 20 år - Detaljer.pdf
+		Documentation\Realkredit Danmark Examples\2016-04-03\Flex\F3 20 år - Omkostninger.pdf = Documentation\Realkredit Danmark Examples\2016-04-03\Flex\F3 20 år - Omkostninger.pdf
+		Documentation\Realkredit Danmark Examples\2016-04-03\Flex\F3 20 år - Terminer.pdf = Documentation\Realkredit Danmark Examples\2016-04-03\Flex\F3 20 år - Terminer.pdf
+		Documentation\Realkredit Danmark Examples\2016-04-03\Flex\F3 30 år - Detaljer.pdf = Documentation\Realkredit Danmark Examples\2016-04-03\Flex\F3 30 år - Detaljer.pdf
+		Documentation\Realkredit Danmark Examples\2016-04-03\Flex\F3 30 år - Omkostninger.pdf = Documentation\Realkredit Danmark Examples\2016-04-03\Flex\F3 30 år - Omkostninger.pdf
+		Documentation\Realkredit Danmark Examples\2016-04-03\Flex\F3 30 år - Terminer.pdf = Documentation\Realkredit Danmark Examples\2016-04-03\Flex\F3 30 år - Terminer.pdf
+		Documentation\Realkredit Danmark Examples\2016-04-03\Flex\F5 10 år - Detaljer.pdf = Documentation\Realkredit Danmark Examples\2016-04-03\Flex\F5 10 år - Detaljer.pdf
+		Documentation\Realkredit Danmark Examples\2016-04-03\Flex\F5 10 år - Omkostninger.pdf = Documentation\Realkredit Danmark Examples\2016-04-03\Flex\F5 10 år - Omkostninger.pdf
+		Documentation\Realkredit Danmark Examples\2016-04-03\Flex\F5 10 år - Terminer.pdf = Documentation\Realkredit Danmark Examples\2016-04-03\Flex\F5 10 år - Terminer.pdf
+		Documentation\Realkredit Danmark Examples\2016-04-03\Flex\F5 15 år - Detaljer.pdf = Documentation\Realkredit Danmark Examples\2016-04-03\Flex\F5 15 år - Detaljer.pdf
+		Documentation\Realkredit Danmark Examples\2016-04-03\Flex\F5 15 år - Omkostninger.pdf = Documentation\Realkredit Danmark Examples\2016-04-03\Flex\F5 15 år - Omkostninger.pdf
+		Documentation\Realkredit Danmark Examples\2016-04-03\Flex\F5 15 år - Terminer.pdf = Documentation\Realkredit Danmark Examples\2016-04-03\Flex\F5 15 år - Terminer.pdf
+		Documentation\Realkredit Danmark Examples\2016-04-03\Flex\F5 20 år - Detaljer.pdf = Documentation\Realkredit Danmark Examples\2016-04-03\Flex\F5 20 år - Detaljer.pdf
+		Documentation\Realkredit Danmark Examples\2016-04-03\Flex\F5 20 år - Omkostninger.pdf = Documentation\Realkredit Danmark Examples\2016-04-03\Flex\F5 20 år - Omkostninger.pdf
+		Documentation\Realkredit Danmark Examples\2016-04-03\Flex\F5 20 år - Terminer.pdf = Documentation\Realkredit Danmark Examples\2016-04-03\Flex\F5 20 år - Terminer.pdf
+		Documentation\Realkredit Danmark Examples\2016-04-03\Flex\F5 30 år - Detaljer.pdf = Documentation\Realkredit Danmark Examples\2016-04-03\Flex\F5 30 år - Detaljer.pdf
+		Documentation\Realkredit Danmark Examples\2016-04-03\Flex\F5 30 år - Omkostninger.pdf = Documentation\Realkredit Danmark Examples\2016-04-03\Flex\F5 30 år - Omkostninger.pdf
+		Documentation\Realkredit Danmark Examples\2016-04-03\Flex\F5 30 år - Terminer.pdf = Documentation\Realkredit Danmark Examples\2016-04-03\Flex\F5 30 år - Terminer.pdf
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kort lån", "Kort lån", "{EC4A11C0-34BE-4031-B648-41BC2388207B}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation\Realkredit Danmark Examples\2016-04-03\Kort lån\Kortlån 10 år - Detaljer.pdf = Documentation\Realkredit Danmark Examples\2016-04-03\Kort lån\Kortlån 10 år - Detaljer.pdf
+		Documentation\Realkredit Danmark Examples\2016-04-03\Kort lån\Kortlån 10 år - Omkostninger.pdf = Documentation\Realkredit Danmark Examples\2016-04-03\Kort lån\Kortlån 10 år - Omkostninger.pdf
+		Documentation\Realkredit Danmark Examples\2016-04-03\Kort lån\Kortlån 10 år - Terminer.pdf = Documentation\Realkredit Danmark Examples\2016-04-03\Kort lån\Kortlån 10 år - Terminer.pdf
+		Documentation\Realkredit Danmark Examples\2016-04-03\Kort lån\Kortlån 15 år - Detaljer.pdf = Documentation\Realkredit Danmark Examples\2016-04-03\Kort lån\Kortlån 15 år - Detaljer.pdf
+		Documentation\Realkredit Danmark Examples\2016-04-03\Kort lån\Kortlån 15 år - Omkostninger.pdf = Documentation\Realkredit Danmark Examples\2016-04-03\Kort lån\Kortlån 15 år - Omkostninger.pdf
+		Documentation\Realkredit Danmark Examples\2016-04-03\Kort lån\Kortlån 15 år - Terminer.pdf = Documentation\Realkredit Danmark Examples\2016-04-03\Kort lån\Kortlån 15 år - Terminer.pdf
+		Documentation\Realkredit Danmark Examples\2016-04-03\Kort lån\Kortlån 20 år - Detaljer.pdf = Documentation\Realkredit Danmark Examples\2016-04-03\Kort lån\Kortlån 20 år - Detaljer.pdf
+		Documentation\Realkredit Danmark Examples\2016-04-03\Kort lån\Kortlån 20 år - Omkostninger.pdf = Documentation\Realkredit Danmark Examples\2016-04-03\Kort lån\Kortlån 20 år - Omkostninger.pdf
+		Documentation\Realkredit Danmark Examples\2016-04-03\Kort lån\Kortlån 20 år - Terminer.pdf = Documentation\Realkredit Danmark Examples\2016-04-03\Kort lån\Kortlån 20 år - Terminer.pdf
+		Documentation\Realkredit Danmark Examples\2016-04-03\Kort lån\Kortlån 30 år - Detaljer.pdf = Documentation\Realkredit Danmark Examples\2016-04-03\Kort lån\Kortlån 30 år - Detaljer.pdf
+		Documentation\Realkredit Danmark Examples\2016-04-03\Kort lån\Kortlån 30 år - Omkostninger.pdf = Documentation\Realkredit Danmark Examples\2016-04-03\Kort lån\Kortlån 30 år - Omkostninger.pdf
+		Documentation\Realkredit Danmark Examples\2016-04-03\Kort lån\Kortlån 30 år - Terminer.pdf = Documentation\Realkredit Danmark Examples\2016-04-03\Kort lån\Kortlån 30 år - Terminer.pdf
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Website.Tests", "Website.Tests\Website.Tests.csproj", "{C97A24BD-E72C-450C-8A50-FAF1DC7DF432}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3757C146-0E9D-41E0-AB83-7ABFDF3C98EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3757C146-0E9D-41E0-AB83-7ABFDF3C98EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3757C146-0E9D-41E0-AB83-7ABFDF3C98EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3757C146-0E9D-41E0-AB83-7ABFDF3C98EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F016213-FF62-462D-B77B-B1F903FF5B82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F016213-FF62-462D-B77B-B1F903FF5B82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F016213-FF62-462D-B77B-B1F903FF5B82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F016213-FF62-462D-B77B-B1F903FF5B82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22AF3D9D-2AE3-4596-B801-7A8D5D41D1FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22AF3D9D-2AE3-4596-B801-7A8D5D41D1FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22AF3D9D-2AE3-4596-B801-7A8D5D41D1FB}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{22AF3D9D-2AE3-4596-B801-7A8D5D41D1FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22AF3D9D-2AE3-4596-B801-7A8D5D41D1FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C97A24BD-E72C-450C-8A50-FAF1DC7DF432}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C97A24BD-E72C-450C-8A50-FAF1DC7DF432}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C97A24BD-E72C-450C-8A50-FAF1DC7DF432}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C97A24BD-E72C-450C-8A50-FAF1DC7DF432}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DAA395E1-6144-4A55-8404-8D4A0E98F0C4} = {D415085B-5555-4001-BC54-05E5F5A72376}
+		{D0F5309A-C629-46E5-8543-B550F43E581C} = {D415085B-5555-4001-BC54-05E5F5A72376}
+		{7409EB68-B6FE-4CA6-8C18-8197DF0AA89C} = {D415085B-5555-4001-BC54-05E5F5A72376}
+		{4CA0ABA2-8B5D-4350-BA11-89830200F431} = {D415085B-5555-4001-BC54-05E5F5A72376}
+		{139282C1-2040-483C-B821-3F9E25F7BEA7} = {4CA0ABA2-8B5D-4350-BA11-89830200F431}
+		{C441C578-894B-48EB-996D-D19F324D3C6D} = {139282C1-2040-483C-B821-3F9E25F7BEA7}
+		{019A2688-268C-4A80-AC89-7A0E74351614} = {139282C1-2040-483C-B821-3F9E25F7BEA7}
+		{B4BAF16A-027D-46BA-9044-E81D3E370B73} = {139282C1-2040-483C-B821-3F9E25F7BEA7}
+		{74BA4CDD-0679-48CC-944B-3D55EF83A81A} = {7409EB68-B6FE-4CA6-8C18-8197DF0AA89C}
+		{AE39DF3C-BF68-4671-B75F-42711437B142} = {74BA4CDD-0679-48CC-944B-3D55EF83A81A}
+		{DCE52DA9-6E97-4064-8A47-AD6BE16E9E88} = {74BA4CDD-0679-48CC-944B-3D55EF83A81A}
+		{181883BD-0068-428B-943E-5093A98403E4} = {74BA4CDD-0679-48CC-944B-3D55EF83A81A}
+		{F8104BA0-E794-41B9-9BDB-2DAE77E051B1} = {DAA395E1-6144-4A55-8404-8D4A0E98F0C4}
+		{90BAC0E4-7665-40F2-9347-1532823205AD} = {F8104BA0-E794-41B9-9BDB-2DAE77E051B1}
+		{EBC2C77A-6CCC-4190-ACBD-351ECBA0BE08} = {D0F5309A-C629-46E5-8543-B550F43E581C}
+		{FCF06659-3E78-4D29-86A1-E4B6EBFB6E1C} = {EBC2C77A-6CCC-4190-ACBD-351ECBA0BE08}
+		{91094E31-FBB6-4170-BCC2-623486D8D1A9} = {EBC2C77A-6CCC-4190-ACBD-351ECBA0BE08}
+		{FD6D14B7-D783-42CF-A67D-FA7BC1E48826} = {EBC2C77A-6CCC-4190-ACBD-351ECBA0BE08}
+		{84187FF8-5F3E-4B89-ADED-ADC1A42FE3BB} = {DAA395E1-6144-4A55-8404-8D4A0E98F0C4}
+		{133E2ECF-4ED0-494F-8ABB-D9D6A23EEECB} = {84187FF8-5F3E-4B89-ADED-ADC1A42FE3BB}
+		{EC4A11C0-34BE-4031-B648-41BC2388207B} = {84187FF8-5F3E-4B89-ADED-ADC1A42FE3BB}
+	EndGlobalSection
+EndGlobal

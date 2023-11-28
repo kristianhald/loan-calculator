@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <title>BeregnBoliglån.dk - Hvad koster det?</title>
+</head>
+<body>
+    @Scripts.Render("~/bundles/cookies")
+
+    <div class="container">
+        <h1 class="page-header">BeregnBoliglån.dk (beta)</h1>
+        @RenderBody()
+    </div>
+
+    @RenderSection("scripts", required: false)
+
+</body>
+</html>

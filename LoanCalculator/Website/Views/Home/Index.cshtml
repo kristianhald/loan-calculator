@@ -1,0 +1,19 @@
+﻿@{
+
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+
+</head>
+<body>
+    @* ReactDOM.unmountComponentAtNode - Remember to call this at some point, somewhere or else react will leak *@
+
+    <div class="container body-content" id="content">
+        <i class="fa fa-cog fa-spin center-spinner" style="font-size: 120px;"></i>
+    </div>
+    @Scripts.Render("~/bundles/loanApp")
+</body>
+</html>

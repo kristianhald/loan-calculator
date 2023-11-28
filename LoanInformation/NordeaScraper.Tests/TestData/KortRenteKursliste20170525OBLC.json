@@ -1,0 +1,273 @@
+﻿[
+  {
+    "refinancingDate": null,
+    "keyFigures": {
+      "principal": 3031000,
+      "disbursementValue": 101.06,
+      "marketValue": 3057067,
+      "proceeds": 3000850,
+      "rateDate": 1495708200256,
+      "contributionFee": 0.85,
+      "interestRate": 0.16,
+      "grossPaymentPerMonth": 15076,
+      "netGrossPaymentPerMonth": 14393,
+      "countyTax": 27.6,
+      "yearlyCostsInPercent": 1.1,
+      "totalGrossPayment": 3340283.300000001,
+      "totalNetGrossPayment": 3260450.5541999987,
+      "establishmentPercentage": 0.0,
+      "firstYearGrossExpense": 30101,
+      "rateDateFormattet": "25-05-17"
+    },
+    "periodExpenses": {
+      "netGrossPaymentLowerRent": 172720,
+      "netGrossPayment": 172720,
+      "netGrossPaymentHigherRent": 172720,
+      "outstandingDebtLowerRent": 2902933,
+      "outstandingDebt": 2927898,
+      "outstandingDebtHigherRent": 2923254,
+      "loanExpensesLowerRent": 3075653,
+      "loanExpenses": 3100618,
+      "loanExpensesHigherRent": 3095974,
+      "changeInPaymentLowerRent": 0,
+      "changeInPaymentUnchanged": 0,
+      "changeInPaymentHigherRent": 0
+    },
+    "preliminaryExpenses": {
+      "loanFee": 3000,
+      "brokerage": 3057,
+      "otherBankFee": 3000,
+      "registrationFeeAndStampFee": 47160,
+      "establishmentFee": 0,
+      "totalExpenses": 62279,
+      "fundingCut": 6062
+    },
+    "amortisations": [
+      {
+        "dueDate": 1498860000000,
+        "outstandingDebt": 3015722,
+        "interestAndFee": 3112,
+        "instalment": 15278,
+        "grossPayment": 18390,
+        "netGrossPayment": 17531,
+        "dueDateFormattet": "01-07-17"
+      },
+      {
+        "dueDate": 1506808800000,
+        "outstandingDebt": 2978141,
+        "interestAndFee": 7615,
+        "instalment": 37581,
+        "grossPayment": 45196,
+        "netGrossPayment": 43094,
+        "dueDateFormattet": "01-10-17"
+      },
+      {
+        "dueDate": 1514761200000,
+        "outstandingDebt": 2940544,
+        "interestAndFee": 7520,
+        "instalment": 37596,
+        "grossPayment": 45116,
+        "netGrossPayment": 43041,
+        "dueDateFormattet": "01-01-18"
+      },
+      {
+        "dueDate": 1522533600000,
+        "outstandingDebt": 2902933,
+        "interestAndFee": 7425,
+        "instalment": 37611,
+        "grossPayment": 45036,
+        "netGrossPayment": 43061,
+        "dueDateFormattet": "01-04-18"
+      },
+      {
+        "dueDate": 1530396000000,
+        "outstandingDebt": 2865306,
+        "interestAndFee": 7330,
+        "instalment": 37626,
+        "grossPayment": 44956,
+        "netGrossPayment": 43007,
+        "dueDateFormattet": "01-07-18"
+      },
+      {
+        "dueDate": 1538344800000,
+        "outstandingDebt": 2827665,
+        "interestAndFee": 7235,
+        "instalment": 37642,
+        "grossPayment": 44876,
+        "netGrossPayment": 42952,
+        "dueDateFormattet": "01-10-18"
+      },
+      {
+        "dueDate": 1546342301677,
+        "outstandingDebt": 2790008,
+        "interestAndFee": 27989,
+        "instalment": 150717,
+        "grossPayment": 178706,
+        "netGrossPayment": 171469,
+        "dueDateFormattet": "01-01-19"
+      },
+      {
+        "dueDate": 1577878301677,
+        "outstandingDebt": 2639231,
+        "interestAndFee": 26466,
+        "instalment": 150958,
+        "grossPayment": 177424,
+        "netGrossPayment": 170648,
+        "dueDateFormattet": "01-01-20"
+      },
+      {
+        "dueDate": 1609500701677,
+        "outstandingDebt": 2488213,
+        "interestAndFee": 24940,
+        "instalment": 151200,
+        "grossPayment": 176140,
+        "netGrossPayment": 169755,
+        "dueDateFormattet": "01-01-21"
+      },
+      {
+        "dueDate": 1641036701677,
+        "outstandingDebt": 2336953,
+        "interestAndFee": 23412,
+        "instalment": 151442,
+        "grossPayment": 174854,
+        "netGrossPayment": 168860,
+        "dueDateFormattet": "01-01-22"
+      },
+      {
+        "dueDate": 1672572701677,
+        "outstandingDebt": 2185450,
+        "interestAndFee": 21882,
+        "instalment": 151684,
+        "grossPayment": 173566,
+        "netGrossPayment": 167964,
+        "dueDateFormattet": "01-01-23"
+      },
+      {
+        "dueDate": 1704108701677,
+        "outstandingDebt": 2033706,
+        "interestAndFee": 20349,
+        "instalment": 151927,
+        "grossPayment": 172276,
+        "netGrossPayment": 167066,
+        "dueDateFormattet": "01-01-24"
+      },
+      {
+        "dueDate": 1735731101677,
+        "outstandingDebt": 1881718,
+        "interestAndFee": 18813,
+        "instalment": 152170,
+        "grossPayment": 170983,
+        "netGrossPayment": 166167,
+        "dueDateFormattet": "01-01-25"
+      },
+      {
+        "dueDate": 1767267101677,
+        "outstandingDebt": 1729487,
+        "interestAndFee": 17275,
+        "instalment": 152414,
+        "grossPayment": 169689,
+        "netGrossPayment": 165267,
+        "dueDateFormattet": "01-01-26"
+      },
+      {
+        "dueDate": 1798803101677,
+        "outstandingDebt": 1577012,
+        "interestAndFee": 15735,
+        "instalment": 152658,
+        "grossPayment": 168393,
+        "netGrossPayment": 164365,
+        "dueDateFormattet": "01-01-27"
+      },
+      {
+        "dueDate": 1830339101677,
+        "outstandingDebt": 1424293,
+        "interestAndFee": 14192,
+        "instalment": 152902,
+        "grossPayment": 167095,
+        "netGrossPayment": 163461,
+        "dueDateFormattet": "01-01-28"
+      },
+      {
+        "dueDate": 1861961501677,
+        "outstandingDebt": 1271329,
+        "interestAndFee": 12647,
+        "instalment": 153147,
+        "grossPayment": 165794,
+        "netGrossPayment": 162557,
+        "dueDateFormattet": "01-01-29"
+      },
+      {
+        "dueDate": 1893497501677,
+        "outstandingDebt": 1118121,
+        "interestAndFee": 11099,
+        "instalment": 153392,
+        "grossPayment": 164492,
+        "netGrossPayment": 161650,
+        "dueDateFormattet": "01-01-30"
+      },
+      {
+        "dueDate": 1925033501677,
+        "outstandingDebt": 964667,
+        "interestAndFee": 9549,
+        "instalment": 153638,
+        "grossPayment": 163187,
+        "netGrossPayment": 160742,
+        "dueDateFormattet": "01-01-31"
+      },
+      {
+        "dueDate": 1956569501677,
+        "outstandingDebt": 810968,
+        "interestAndFee": 7996,
+        "instalment": 153884,
+        "grossPayment": 161880,
+        "netGrossPayment": 159833,
+        "dueDateFormattet": "01-01-32"
+      },
+      {
+        "dueDate": 1988191901677,
+        "outstandingDebt": 657022,
+        "interestAndFee": 6441,
+        "instalment": 154130,
+        "grossPayment": 160572,
+        "netGrossPayment": 158923,
+        "dueDateFormattet": "01-01-33"
+      },
+      {
+        "dueDate": 2019727901677,
+        "outstandingDebt": 502831,
+        "interestAndFee": 4884,
+        "instalment": 154377,
+        "grossPayment": 159261,
+        "netGrossPayment": 158010,
+        "dueDateFormattet": "01-01-34"
+      },
+      {
+        "dueDate": 2051263901677,
+        "outstandingDebt": 348392,
+        "interestAndFee": 3324,
+        "instalment": 154624,
+        "grossPayment": 157948,
+        "netGrossPayment": 157097,
+        "dueDateFormattet": "01-01-35"
+      },
+      {
+        "dueDate": 2082799901677,
+        "outstandingDebt": 193706,
+        "interestAndFee": 1761,
+        "instalment": 154872,
+        "grossPayment": 156633,
+        "netGrossPayment": 156182,
+        "dueDateFormattet": "01-01-36"
+      },
+      {
+        "dueDate": 2114422301677,
+        "outstandingDebt": 38772,
+        "interestAndFee": 294,
+        "instalment": 77529,
+        "grossPayment": 77823,
+        "netGrossPayment": 77747,
+        "dueDateFormattet": "01-01-37"
+      }
+    ]
+  }
+]

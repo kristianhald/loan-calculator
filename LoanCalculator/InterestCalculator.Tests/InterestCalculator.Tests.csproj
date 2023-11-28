@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\xunit.runner.visualstudio.2.1.0\build\net20\xunit.runner.visualstudio.props" Condition="Exists('..\packages\xunit.runner.visualstudio.2.1.0\build\net20\xunit.runner.visualstudio.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8F016213-FF62-462D-B77B-B1F903FF5B82}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Koolawong.InterestCalculator.Tests</RootNamespace>
+    <AssemblyName>Koolawong.InterestCalculator.Tests</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Production|AnyCPU'">
+    <OutputPath>bin\Production\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="xunit.abstractions, Version=2.0.0.0, Culture=neutral, PublicKeyToken=8d05b1bb7a6fdb6c, processorArchitecture=MSIL">
+      <HintPath>..\packages\xunit.abstractions.2.0.0\lib\net35\xunit.abstractions.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="xunit.assert, Version=2.1.0.3179, Culture=neutral, PublicKeyToken=8d05b1bb7a6fdb6c, processorArchitecture=MSIL">
+      <HintPath>..\packages\xunit.assert.2.1.0\lib\dotnet\xunit.assert.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="xunit.core, Version=2.1.0.3179, Culture=neutral, PublicKeyToken=8d05b1bb7a6fdb6c, processorArchitecture=MSIL">
+      <HintPath>..\packages\xunit.extensibility.core.2.1.0\lib\dotnet\xunit.core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="xunit.execution.desktop, Version=2.1.0.3179, Culture=neutral, PublicKeyToken=8d05b1bb7a6fdb6c, processorArchitecture=MSIL">
+      <HintPath>..\packages\xunit.extensibility.execution.2.1.0\lib\net45\xunit.execution.desktop.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BrfKredit\2016-04-02\Fastrente\Fastrente1.0Procent10år.cs" />
+    <Compile Include="BrfKredit\2016-04-02\Fastrente\Fastrente1.0Procent15år.cs" />
+    <Compile Include="BrfKredit\2016-04-02\Fastrente\Fastrente1.0Procent5år.cs" />
+    <Compile Include="BrfKredit\2016-04-02\Fastrente\Fastrente1.5Procent30år.cs" />
+    <Compile Include="BrfKredit\2016-04-02\Fastrente\Fastrente2.0Procent20år.cs" />
+    <Compile Include="BrfKredit\2016-04-02\Fastrente\Fastrente2.0Procent30år.cs" />
+    <Compile Include="BrfKredit\2016-04-02\Fastrente\Fastrente2.5Procent30år.cs" />
+    <Compile Include="BrfKredit\2016-04-02\Flex\F110år.cs" />
+    <Compile Include="BrfKredit\ContributionTests.cs" />
+    <Compile Include="BrfKredit\LoanTests.cs" />
+    <Compile Include="Model\CalculationDateTests.cs" />
+    <Compile Include="Model\CalculationTermTests.cs" />
+    <Compile Include="Model\ContributionRateStairCaseTests.cs" />
+    <Compile Include="Model\PeriodicalPaymentTests.cs" />
+    <Compile Include="Model\PeriodPaymentPlanData\PeriodPaymentPlanDataReader.cs" />
+    <Compile Include="Model\PeriodPaymentPlanData\PeriodPaymentPlanDataFiles.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PeriodPaymentPlanDataFiles.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Model\PeriodPaymentPlanTests.cs" />
+    <Compile Include="Model\PrincipalTests.cs" />
+    <Compile Include="Model\TermContributionRateTests.cs" />
+    <Compile Include="Model\TermInterestRateTests.cs" />
+    <Compile Include="Model\TermsTests.cs" />
+    <Compile Include="NordeaKredit\2016-04-02\Fastrente\Fastrente2.5Procent30år.cs" />
+    <Compile Include="NordeaKredit\2016-04-02\Fastrente\Fastrente2.0Procent20år.cs" />
+    <Compile Include="NordeaKredit\ContributionTests.cs" />
+    <Compile Include="NordeaKredit\LoanTests.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RealkreditDanmark\2016-04-02\Fastrente\Fastrente1.0Procent10år.cs" />
+    <Compile Include="RealkreditDanmark\2016-04-02\Fastrente\Fastrente1.0Procent15år.cs" />
+    <Compile Include="RealkreditDanmark\2016-04-02\Fastrente\Fastrente2.0Procent10år.cs" />
+    <Compile Include="RealkreditDanmark\2016-04-02\Fastrente\Fastrente2.0Procent15år.cs" />
+    <Compile Include="RealkreditDanmark\ContributionTests.cs" />
+    <Compile Include="RealkreditDanmark\LoanTests.cs" />
+    <Compile Include="Services\LoanServiceTests.cs" />
+    <Compile Include="Services\PeriodPaymentPlanData\ContributionRateStepParser.cs" />
+    <Compile Include="Services\PeriodPaymentPlanData\LoanCalculationParser.cs" />
+    <Compile Include="Services\PeriodPaymentPlanData\LoanInputParser.cs" />
+    <Compile Include="Services\PeriodPaymentPlanData\PaymentPlanParser.cs" />
+    <Compile Include="Services\PeriodPaymentPlanData\PeriodPaymentPlanDataFiles.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PeriodPaymentPlanDataFiles.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Services\PeriodPaymentPlanData\LoanDataReader.cs" />
+    <Compile Include="Support\CollectionAssert.cs" />
+    <Compile Include="TotalKredit\2016-04-02\Fastrente\Fastrente2.5Procent30år.cs" />
+    <Compile Include="TotalKredit\ContributionTests.cs" />
+    <Compile Include="TotalKredit\LoanTests.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\InterestCalculator\InterestCalculator.csproj">
+      <Project>{3757c146-0e9d-41e0-ab83-7abfdf3c98ee}</Project>
+      <Name>InterestCalculator</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Model\PeriodPaymentPlanData\OneYearOneTermPerYear.txt" />
+    <EmbeddedResource Include="Model\PeriodPaymentPlanData\PeriodPaymentPlanDataFiles.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>PeriodPaymentPlanDataFiles.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Services\PeriodPaymentPlanData\PeriodPaymentPlanDataFiles.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>PeriodPaymentPlanDataFiles.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Model\PeriodPaymentPlanData\FifteenYearsFourTermsPerYear.txt" />
+    <Content Include="Model\PeriodPaymentPlanData\FiveYearsFourTermsPerYear.txt" />
+    <Content Include="Model\PeriodPaymentPlanData\FourYearsFourTermsPerYear.txt" />
+    <Content Include="Model\PeriodPaymentPlanData\OneYearFourTermsPerYear.txt" />
+    <Content Include="Model\PeriodPaymentPlanData\OneYearSixTermsPerYear.txt" />
+    <Content Include="Model\PeriodPaymentPlanData\OneYearThreeTermsPerYear.txt" />
+    <Content Include="Model\PeriodPaymentPlanData\OneYearTwelveTermsPerYear.txt" />
+    <Content Include="Model\PeriodPaymentPlanData\OneYearTwoTermsPerYear.txt" />
+    <Content Include="Model\PeriodPaymentPlanData\TenYearsFourTermsPerYear.txt" />
+    <Content Include="Model\PeriodPaymentPlanData\ThirtyYearsFourTermsPerYear.txt" />
+    <Content Include="Model\PeriodPaymentPlanData\ThreeYearsFourTermsPerYear.txt" />
+    <Content Include="Model\PeriodPaymentPlanData\TwentyYearsFourTermsPerYear.txt" />
+    <Content Include="Model\PeriodPaymentPlanData\TwoYearsFourTermsPerYear.txt" />
+    <Content Include="Services\PeriodPaymentPlanData\LoanWithBankLoan.txt" />
+    <Content Include="Services\PeriodPaymentPlanData\LoanWithLessThanUpperLimitPercentagePayout.txt" />
+    <Content Include="Services\PeriodPaymentPlanData\LoanWithOnlyOneProduct.txt" />
+    <Content Include="Services\PeriodPaymentPlanData\LoanWithTwoProducts_EntirePayoutDeterminesContributionRate_SecondPriority.txt" />
+    <Content Include="Services\PeriodPaymentPlanData\LoanWithTwoProducts_EntirePayoutDeterminesContributionRate_FirstPriority.txt" />
+    <Content Include="Services\PeriodPaymentPlanData\LoanWithTwoProducts_PriorityDeterminesContributionRate_FirstPriority.txt" />
+    <Content Include="Services\PeriodPaymentPlanData\LoanWithTwoProducts_PriorityDeterminesContributionRate_SecondPriority.txt" />
+    <Content Include="Services\PeriodPaymentPlanData\LoanWithZeroInterestRate.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\xunit.runner.visualstudio.2.1.0\build\net20\xunit.runner.visualstudio.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\xunit.runner.visualstudio.2.1.0\build\net20\xunit.runner.visualstudio.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

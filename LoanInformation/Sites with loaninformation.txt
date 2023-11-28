@@ -1,0 +1,24 @@
+		Totalkredit
+https://netbank.totalkredit.dk/netbank/showStockExchange.do
+
+
+		Nordea
+	Their own calculator
+http://www.nordea.dk/wemapp/api/loanguide/loanguide.json?loantype=OBLC&permanentResidence=true&loanDuration=30&installmentfree=0&amount=1000000&countyId=998&retailOrCorporate=Retail
+http://www.nordea.dk/wemapp/api/loanguide/loanguide.json?loantype=KR3&permanentResidence=true&loanDuration=30&installmentfree=0&amount=1000000&countyId=998&retailOrCorporate=Retail
+http://www.nordea.dk/wemapp/api/loanguide/loanguide.json?loantype=KR5&permanentResidence=true&loanDuration=30&installmentfree=0&amount=1000000&countyId=998&retailOrCorporate=Retail
+
+	'Flekslån' interest rates (Takes the last table)
+http://www.nordea.dk/privat/lan/bolig/historiske-refinansieringsrenter.html
+
+	'Fastlån' exchange rates
+http://www.nordea.dk/wemapp/api/credit/fixedrate/bonds.json
+
+
+		BRF
+https://www.brf.dk/laantyper/obligationskurser
+
+
+		Realkredit Danmark
+Interest rates: http://www.rd.dk/da-dk/privat/koeb-bolig/Kurser-og-renter/Pages/Aktuelle-priser.aspx?segment=P&obl=fl
+Exchange rates: http://www.rd.dk/da-dk/privat/koeb-bolig/Kurser-og-renter/Pages/aktuelle-kurser.aspx?valutakode=DKK

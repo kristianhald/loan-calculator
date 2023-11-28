@@ -1,0 +1,846 @@
+﻿
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+
+
+
+
+
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+    <!-- p0_WLS11-tknetbank_appsrv632-4 -->
+    <!-- kDhSLDUpD9688BG1S8YS)a -->
+    <!-- 25.05.2017 12:44:30 -->
+    <title>Kursliste</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=8" />
+    <link type="text/css" rel="stylesheet" href="/netbank/js/yui/container/assets/container.css" media="screen" />
+    <link type="text/css" rel="stylesheet" href="/netbank/css/menu.css" media="screen" />
+    <link type="text/css" rel="stylesheet" href="/netbank/css/screen.css" media="screen" />
+    <link type="text/css" rel="stylesheet" href="/netbank/css/print.css" media="print" />
+    <!-- jQuery css dependencies -->
+    <link type="text/css" rel="stylesheet" href="/netbank/css/jquery/jqmWindow.css" media="screen" />
+
+    <script type="text/javascript" src="/netbank/js/menu.js"></script>
+    <script type="text/javascript" src="/netbank/dwr/engine.js"></script>
+    <script type="text/javascript" src="/netbank/dwr/util.js"></script>
+    <script type="text/javascript" src="/netbank/dwr/interface/FoldHandler.js"></script>
+    <script type="text/javascript" src="/netbank/dwr/interface/LoansHandler.js"></script>
+    <script type="text/javascript" src="/netbank/dwr/interface/RestructuringHandler.js"></script>
+    <script type="text/javascript" src="/netbank/dwr/interface/RefinancingViewHelper.js"></script>
+    <script type="text/javascript" src="/netbank/dwr/interface/manualLoanScript.js"></script>
+    <script type="text/javascript" src="/netbank/dwr/interface/amortizationscheduleOverviewScript.js"></script>
+    <script type='text/javascript' src='/netbank/dwr/interface/loanOverviewScript.js'></script>
+    <script type="text/javascript" src="/netbank/dwr/interface/ShowCostsHandler.js"></script>
+    <script type="text/javascript" src="/netbank/js/yui/yahoo-dom-event/yahoo-dom-event.js"></script>
+    <script type="text/javascript" src="/netbank/js/yui/dragdrop/dragdrop-min.js"></script>
+    <script type="text/javascript" src="/netbank/js/yui/container/container-min.js"></script>
+    <script type="text/javascript" src="/netbank/js/netbank.js"></script>
+    <script type="text/javascript" src="/netbank/js/validator.jsp"></script>
+    <script type="text/javascript" src="/netbank/js/restructuring.js"></script>
+    <script type="text/javascript" src="/netbank/js/manual_loan.js"></script>
+    <script type="text/javascript" src="/netbank/js/refinancing.js"></script>
+    <script type="text/javascript" src="/netbank/js/amort.js"></script>
+    <script type="text/javascript" src="/netbank/js/costs.js"></script>
+    <!-- jQuery js dependencies -->
+    <script type="text/javascript" src="/netbank/js/jquery/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="/netbank/js/jquery/jqModal.js"></script>
+    <script type="text/javascript" src="/netbank/js/consent.js"></script>
+    <script type="text/javascript">
+
+        function getParentTop() {
+            if (top != null) {
+                return top;
+            } else if (window.top != null) {
+                return window.top;
+            }
+            return null;
+        }
+
+
+        function onLogOffClick() {
+            var parentTop = getParentTop();
+            if (parentTop != null) {
+
+                if (typeof parentTop.disableAutoLogoff == "function") {
+                    parentTop.disableAutoLogoff();
+                }
+            }
+        }
+
+
+        function handleOnload() {
+            var outerpage = getParentTop();
+            if (outerpage != null) {
+
+                if (typeof outerpage.onIframeOnload == "function") {
+                    outerpage.onIframeOnload();
+                }
+            }
+        }
+
+    </script>
+</head>
+
+<body onload="handleOnload();">
+
+    <div id="content">
+        <div class="toolbar right">
+
+            <a href="http://www.totalkredit.dk"><img src="/netbank/res/icon_home.gif" alt="Luk beregningen" /></a> <a href="http://www.totalkredit.dk" style="vertical-align: top; padding-right: 10px;">Luk beregningen</a>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+        <div class="box" style="overflow: hidden">
+            <h1>Kursliste</h1>
+            <p>Her har du mulighed for at følge med i kurserne på de obligationer, som Totalkredit baserer sine lånetilbud på.</p><p>Kurserne er de officielle gennemsnitskurser fratrukket 0,2 fra NASDAQ OMX Nordic, København, pr. seneste børsdag kl. 17.00.</p><p>Beregningen af den effektive rente efter skat tager udgangspunkt i et lån på 1 mio. kr. inkl. omkostninger.</p><p>For lån med afdragsfrihed er den effektive rente efter skat beregnet ud fra en afdragsfrihed på 10 år.</p>
+
+
+            <br />
+
+
+            <h1>Belåningsinterval 0-80% af ejerboligens værdi</h1>
+
+
+
+
+
+
+
+            <h4 id="tblheader_1">
+                <img class="tooltip" src="/netbank/res/icon_help_nb.gif" alt="Lï¿½n med fast rente, hvor du ved prï¿½cist, hvor meget din ydelse bliver, den dag du fï¿½r lï¿½net. Obligationsrestgï¿½lden ligger nemlig fast. Dagskursen bestemmer, hvor meget du fï¿½r udbetalt, nï¿½r det aftalte antal obligationer bliver solgt." title="Lï¿½n med fast rente, hvor du ved prï¿½cist, hvor meget din ydelse bliver, den dag du fï¿½r lï¿½net. Obligationsrestgï¿½lden ligger nemlig fast. Dagskursen bestemmer, hvor meget du fï¿½r udbetalt, nï¿½r det aftalte antal obligationer bliver solgt." id="tooltip0Ctx" /><span class="tooltipLabel">
+                    Fastforrentet obligationslån med afdrag
+                </span>
+            </h4>
+
+            <table class="printtable">
+                <thead>
+                    <tr>
+
+
+
+
+
+
+
+                        <th class="left" style="width: 12%; vertical-align: top;"><img class="tooltip" src="/netbank/res/icon_help.gif" alt="Et lï¿½ns lï¿½betid er det antal ï¿½r, som lï¿½net lï¿½ber." title="Et lï¿½ns lï¿½betid er det antal ï¿½r, som lï¿½net lï¿½ber." id="tooltip1Ctx" /><span class="tooltipLabel">Løbetid</span></th>
+                        <th class="right" style="width: 12%; vertical-align: top;"><img class="tooltip" src="/netbank/res/icon_help.gif" alt="Her vises renten pï¿½ obligationen angivet i procent. Obligationsrente betegnes ogsï¿½ kuponrente, rentefod eller pï¿½lydende rente." title="Her vises renten pï¿½ obligationen angivet i procent. Obligationsrente betegnes ogsï¿½ kuponrente, rentefod eller pï¿½lydende rente." id="tooltip2Ctx" /><span class="tooltipLabel">Obligations-<br />renteprocent</span></th>
+                        <th style="width: 12%"></th>
+                        <th style="width: 12%"></th>
+                        <th class="right" style="width: 12%; vertical-align: top;"><img class="tooltip" src="/netbank/res/icon_help.gif" alt="Her vises tilbudskursen for det nye lï¿½n. Det er den kurs, som du vil kunne fï¿½ et lï¿½netilbud pï¿½ baggrund af i dit pengeinstitut, hvis du gï¿½r i dit pengeinstitut samme dag." title="Her vises tilbudskursen for det nye lï¿½n. Det er den kurs, som du vil kunne fï¿½ et lï¿½netilbud pï¿½ baggrund af i dit pengeinstitut, hvis du gï¿½r i dit pengeinstitut samme dag." id="tooltip3Ctx" /><span class="tooltipLabel">Tilbudskurs</span></th>
+                        <th class="right" style="width: 12%; vertical-align: top;"><img class="tooltip" src="/netbank/res/icon_help.gif" alt="Fondskoden identificerer entydigt de enkelte grupper vï¿½rdipapirer pï¿½ Vï¿½rdipapircentralen." title="Fondskoden identificerer entydigt de enkelte grupper vï¿½rdipapirer pï¿½ Vï¿½rdipapircentralen." id="tooltip4Ctx" /><span class="tooltipLabel">Fondskode</span></th>
+                        <th style="width: 12%"></th>
+                        <th class="right" style="width: 13%; vertical-align: top;"><img class="tooltip" src="/netbank/res/icon_help.gif" alt="Den effektive rente er den pris, det faktisk koster at lï¿½ne. Ud over lï¿½nerenten er der i den effektive rente medregnet kurstab, bidrag, kurtage og stiftelsesomkostninger." title="Den effektive rente er den pris, det faktisk koster at lï¿½ne. Ud over lï¿½nerenten er der i den effektive rente medregnet kurstab, bidrag, kurtage og stiftelsesomkostninger." id="tooltip5Ctx" /><span class="tooltipLabel">Effektiv rente<br />efter skat</span></th>
+
+
+                    </tr>
+                </thead>
+
+                <tr>
+
+
+
+
+
+
+
+                    <td class="left">10 år</td>
+                    <td class="right">0,5000 %</td>
+                    <td></td>
+                    <td></td>
+                    <td class="right">98,7340</td>
+                    <td class="right">0950459</td>
+                    <td></td>
+                    <td class="right">1,6600 %</td>
+
+
+                </tr>
+
+                <tr>
+
+
+
+
+
+
+
+                    <td class="left">15 år</td>
+                    <td class="right">1,0000 %</td>
+                    <td></td>
+                    <td></td>
+                    <td class="right">98,0750</td>
+                    <td class="right">0950467</td>
+                    <td></td>
+                    <td class="right">1,8700 %</td>
+
+
+                </tr>
+
+                <tr>
+
+
+
+
+
+
+
+                    <td class="left">20 år</td>
+                    <td class="right">1,5000 %</td>
+                    <td></td>
+                    <td></td>
+                    <td class="right">97,7480</td>
+                    <td class="right">0950432</td>
+                    <td></td>
+                    <td class="right">2,1200 %</td>
+
+
+                </tr>
+
+                <tr>
+
+
+
+
+
+
+
+                    <td class="left">20 år</td>
+                    <td class="right">1,5000 %</td>
+                    <td></td>
+                    <td></td>
+                    <td class="right">96,7000</td>
+                    <td class="right">0951331</td>
+                    <td></td>
+                    <td class="right">2,2400 %</td>
+
+
+                </tr>
+
+                <tr>
+
+
+
+
+
+
+
+                    <td class="left">30 år</td>
+                    <td class="right">2,0000 %</td>
+                    <td></td>
+                    <td></td>
+                    <td class="right">97,2710</td>
+                    <td class="right">0950416</td>
+                    <td></td>
+                    <td class="right">2,3700 %</td>
+
+
+                </tr>
+
+                <tr>
+
+
+
+
+
+
+
+                    <td class="left">30 år</td>
+                    <td class="right">1,5000 %</td>
+                    <td></td>
+                    <td></td>
+                    <td class="right">92,9750</td>
+                    <td class="right">0950602</td>
+                    <td></td>
+                    <td class="right">2,3500 %</td>
+
+
+                </tr>
+
+                <tr>
+
+
+
+
+
+
+
+                    <td class="left">30 år</td>
+                    <td class="right">2,0000 %</td>
+                    <td></td>
+                    <td></td>
+                    <td class="right">96,4000</td>
+                    <td class="right">0951358</td>
+                    <td></td>
+                    <td class="right">2,4400 %</td>
+
+
+                </tr>
+
+            </table>
+
+
+
+            <h4 id="tblheader_2">
+                <img class="tooltip" src="/netbank/res/icon_help_nb.gif" alt="Obligationslï¿½n hvor du undlader at betale afdrag pï¿½ dit realkreditlï¿½n i op til 30 ï¿½r." title="Obligationslï¿½n hvor du undlader at betale afdrag pï¿½ dit realkreditlï¿½n i op til 30 ï¿½r." id="tooltip6Ctx" /><span class="tooltipLabel">
+                    Fastforrentet obligationslån uden afdrag
+                </span>
+            </h4>
+
+            <table class="printtable">
+                <thead>
+                    <tr>
+
+
+
+
+
+
+                        <th class="left" style="width: 12%; vertical-align: top;"><img class="tooltip" src="/netbank/res/icon_help.gif" alt="Et lï¿½ns lï¿½betid er det antal ï¿½r, som lï¿½net lï¿½ber." title="Et lï¿½ns lï¿½betid er det antal ï¿½r, som lï¿½net lï¿½ber." id="tooltip7Ctx" /><span class="tooltipLabel">Løbetid</span></th>
+                        <th class="right" style="width: 12%; vertical-align: top;"><img class="tooltip" src="/netbank/res/icon_help.gif" alt="Her vises renten pï¿½ obligationen angivet i procent. Obligationsrente betegnes ogsï¿½ kuponrente, rentefod eller pï¿½lydende rente." title="Her vises renten pï¿½ obligationen angivet i procent. Obligationsrente betegnes ogsï¿½ kuponrente, rentefod eller pï¿½lydende rente." id="tooltip8Ctx" /><span class="tooltipLabel">Obligations-<br />renteprocent</span></th>
+                        <th style="width: 12%"></th>
+                        <th class="right" style="width: 12%; vertical-align: top;"><img class="tooltip" src="/netbank/res/icon_help.gif" alt="Dette er perioden, hvor man ikke betaler afdrag pï¿½ lï¿½net. Totalkredit har lï¿½n med op til 10 ï¿½rs afdragsfrihed." title="Dette er perioden, hvor man ikke betaler afdrag pï¿½ lï¿½net. Totalkredit har lï¿½n med op til 10 ï¿½rs afdragsfrihed." id="tooltip9Ctx" /><span class="tooltipLabel">Afdragsfrihed</span></th>
+                        <th class="right" style="width: 12%; vertical-align: top;"><img class="tooltip" src="/netbank/res/icon_help.gif" alt="Her vises tilbudskursen for det nye lï¿½n. Det er den kurs, som du vil kunne fï¿½ et lï¿½netilbud pï¿½ baggrund af i dit pengeinstitut, hvis du gï¿½r i dit pengeinstitut samme dag." title="Her vises tilbudskursen for det nye lï¿½n. Det er den kurs, som du vil kunne fï¿½ et lï¿½netilbud pï¿½ baggrund af i dit pengeinstitut, hvis du gï¿½r i dit pengeinstitut samme dag." id="tooltip10Ctx" /><span class="tooltipLabel">Tilbudskurs</span></th>
+                        <th class="right" style="width: 12%; vertical-align: top;"><img class="tooltip" src="/netbank/res/icon_help.gif" alt="Fondskoden identificerer entydigt de enkelte grupper vï¿½rdipapirer pï¿½ Vï¿½rdipapircentralen." title="Fondskoden identificerer entydigt de enkelte grupper vï¿½rdipapirer pï¿½ Vï¿½rdipapircentralen." id="tooltip11Ctx" /><span class="tooltipLabel">Fondskode</span></th>
+                        <th style="width: 12%"></th>
+                        <th class="right" style="width: 13%; vertical-align: top;"><img class="tooltip" src="/netbank/res/icon_help.gif" alt="Den effektive rente er den pris, det faktisk koster at lï¿½ne. Ud over lï¿½nerenten er der i den effektive rente medregnet kurstab, bidrag, kurtage og stiftelsesomkostninger." title="Den effektive rente er den pris, det faktisk koster at lï¿½ne. Ud over lï¿½nerenten er der i den effektive rente medregnet kurstab, bidrag, kurtage og stiftelsesomkostninger." id="tooltip12Ctx" /><span class="tooltipLabel">Effektiv rente<br />efter skat</span></th>
+
+
+
+                    </tr>
+                </thead>
+
+                <tr>
+
+
+
+
+
+
+                    <td class="left">30 år</td>
+                    <td class="right">2,5000 %</td>
+                    <td></td>
+                    <td class="right">0-10 år</td>
+                    <td class="right">99,7790</td>
+                    <td class="right">0979899</td>
+                    <td></td>
+                    <td class="right">2,6300 %</td>
+
+
+
+                </tr>
+
+                <tr>
+
+
+
+
+
+
+                    <td class="left">30 år</td>
+                    <td class="right">2,0000 %</td>
+                    <td></td>
+                    <td class="right">0-10 år</td>
+                    <td class="right">95,5990</td>
+                    <td class="right">0950475</td>
+                    <td></td>
+                    <td class="right">2,5300 %</td>
+
+
+
+                </tr>
+
+                <tr>
+
+
+
+
+
+
+                    <td class="left">30 år</td>
+                    <td class="right">2,5000 %</td>
+                    <td></td>
+                    <td class="right">0-10 år</td>
+                    <td class="right">98,0530</td>
+                    <td class="right">0951366</td>
+                    <td></td>
+                    <td class="right">2,7400 %</td>
+
+
+
+                </tr>
+
+            </table>
+
+
+
+            <h4 id="tblheader_3">
+                <img class="tooltip" src="/netbank/res/icon_help_nb.gif" alt="BoligXlï¿½n (XR) er Totalkredits lï¿½n med variabel rente." title="BoligXlï¿½n (XR) er Totalkredits lï¿½n med variabel rente." id="tooltip13Ctx" /><span class="tooltipLabel">
+                    Tilpasningslån
+                </span>
+            </h4>
+
+            <table class="printtable">
+                <thead>
+                    <tr>
+
+
+                        <th class="left" style="width: 17%; vertical-align: top;"><img class="tooltip" src="/netbank/res/icon_help.gif" alt="Rentetilpasningslï¿½n tilbydes med refinansieringsfrekvenser fra 1 til 10 ï¿½r." title="Rentetilpasningslï¿½n tilbydes med refinansieringsfrekvenser fra 1 til 10 ï¿½r." id="tooltip14Ctx" /><span class="tooltipLabel">Refinan-<br />sieringsfrekvens</span></th>
+                        <th class="right" style="width: 12%; vertical-align: top;"><img class="tooltip" src="/netbank/res/icon_help.gif" alt="Renten bliver fastsat ved udbetaling og efterfï¿½lgende ved hver refinansiering. Der er typisk flere refinansieringer i dets lï¿½betid, og renten pï¿½ lï¿½net er dermed variabel." title="Renten bliver fastsat ved udbetaling og efterfï¿½lgende ved hver refinansiering. Der er typisk flere refinansieringer i dets lï¿½betid, og renten pï¿½ lï¿½net er dermed variabel." id="tooltip15Ctx" /><span class="tooltipLabel">Kontantlåns-<br />renteprocent</span></th>
+                        <th style="width: 10%"></th>
+                        <th class="right" style="width: 12%; vertical-align: top;"><img class="tooltip" src="/netbank/res/icon_help.gif" alt="Dette er perioden, hvor man ikke betaler afdrag pï¿½ lï¿½net. Totalkredit har lï¿½n med op til 10 ï¿½rs afdragsfrihed." title="Dette er perioden, hvor man ikke betaler afdrag pï¿½ lï¿½net. Totalkredit har lï¿½n med op til 10 ï¿½rs afdragsfrihed." id="tooltip16Ctx" /><span class="tooltipLabel">Afdragsfrihed</span></th>
+                        <th class="right" style="width: 12%; vertical-align: top;"><img class="tooltip" src="/netbank/res/icon_help.gif" alt="Her vises den kurs, der udregnes pï¿½ baggrund af kurser for de obligationer, der indgï¿½r i lï¿½net." title="Her vises den kurs, der udregnes pï¿½ baggrund af kurser for de obligationer, der indgï¿½r i lï¿½net." id="tooltip17Ctx" /><span class="tooltipLabel">Vægtet kurs</span></th>
+                        <th style="width: 12%"></th>
+                        <th style="width: 12%"></th>
+                        <th class="right" style="width: 13%; vertical-align: top;"><img class="tooltip" src="/netbank/res/icon_help.gif" alt="Den effektive rente er den pris, det faktisk koster at lï¿½ne. Ud over lï¿½nerenten er der i den effektive rente medregnet kurstab, bidrag, kurtage og stiftelsesomkostninger." title="Den effektive rente er den pris, det faktisk koster at lï¿½ne. Ud over lï¿½nerenten er der i den effektive rente medregnet kurstab, bidrag, kurtage og stiftelsesomkostninger." id="tooltip18Ctx" /><span class="tooltipLabel">Effektiv rente<br />efter skat</span></th>
+
+
+
+
+
+
+
+                    </tr>
+                </thead>
+
+                <tr>
+
+
+                    <td class="left">Hvert 3. år i juli</td>
+                    <td class="right">-0,1976 %</td>
+                    <td></td>
+                    <td class="right">0-10 år</td>
+                    <td class="right">102,5110</td>
+                    <td></td>
+                    <td></td>
+                    <td class="right">0,8500 %</td>
+
+
+
+
+
+
+
+                </tr>
+
+                <tr>
+
+
+                    <td class="left">Hvert 3. år i januar</td>
+                    <td class="right">-0,1428 %</td>
+                    <td></td>
+                    <td class="right">0-10 år</td>
+                    <td class="right">102,9720</td>
+                    <td></td>
+                    <td></td>
+                    <td class="right">0,9100 %</td>
+
+
+
+
+
+
+
+                </tr>
+
+                <tr>
+
+
+                    <td class="left">Hvert 4. år i juli</td>
+                    <td class="right">-0,0404 %</td>
+                    <td></td>
+                    <td class="right">0-10 år</td>
+                    <td class="right">103,2180</td>
+                    <td></td>
+                    <td></td>
+                    <td class="right">0,9700 %</td>
+
+
+
+
+
+
+
+                </tr>
+
+                <tr>
+
+
+                    <td class="left">Hvert 4. år i januar</td>
+                    <td class="right">0,0601 %</td>
+                    <td></td>
+                    <td class="right">0-10 år</td>
+                    <td class="right">103,3740</td>
+                    <td></td>
+                    <td></td>
+                    <td class="right">1,0600 %</td>
+
+
+
+
+
+
+
+                </tr>
+
+                <tr>
+
+
+                    <td class="left">Hvert 5. år i juli</td>
+                    <td class="right">0,1624 %</td>
+                    <td></td>
+                    <td class="right">0-10 år</td>
+                    <td class="right">103,4120</td>
+                    <td></td>
+                    <td></td>
+                    <td class="right">0,9700 %</td>
+
+
+
+
+
+
+
+                </tr>
+
+                <tr>
+
+
+                    <td class="left">Hvert 5. år i januar</td>
+                    <td class="right">0,2515 %</td>
+                    <td></td>
+                    <td class="right">0-10 år</td>
+                    <td class="right">103,4160</td>
+                    <td></td>
+                    <td></td>
+                    <td class="right">1,0400 %</td>
+
+
+
+
+
+
+
+                </tr>
+
+                <tr>
+
+
+                    <td class="left">Hvert 6. år i januar</td>
+                    <td class="right">0,4918 %</td>
+                    <td></td>
+                    <td class="right">0-10 år</td>
+                    <td class="right">102,8000</td>
+                    <td></td>
+                    <td></td>
+                    <td class="right">1,2100 %</td>
+
+
+
+
+
+
+
+                </tr>
+
+                <tr>
+
+
+                    <td class="left">Hvert 7. år i januar</td>
+                    <td class="right">0,7200 %</td>
+                    <td></td>
+                    <td class="right">0-10 år</td>
+                    <td class="right">101,8000</td>
+                    <td></td>
+                    <td></td>
+                    <td class="right">1,3600 %</td>
+
+
+
+
+
+
+
+                </tr>
+
+                <tr>
+
+
+                    <td class="left">Hvert 8. år i januar</td>
+                    <td class="right">0,8601 %</td>
+                    <td></td>
+                    <td class="right">0-10 år</td>
+                    <td class="right">108,3500</td>
+                    <td></td>
+                    <td></td>
+                    <td class="right">1,4500 %</td>
+
+
+
+
+
+
+
+                </tr>
+
+                <tr>
+
+
+                    <td class="left">Hvert 9. år i januar</td>
+                    <td class="right">1,0704 %</td>
+                    <td></td>
+                    <td class="right">0-10 år</td>
+                    <td class="right">107,6000</td>
+                    <td></td>
+                    <td></td>
+                    <td class="right">1,5900 %</td>
+
+
+
+
+
+
+
+                </tr>
+
+                <tr>
+
+
+                    <td class="left">Hvert 10. år i januar</td>
+                    <td class="right">1,1735 %</td>
+                    <td></td>
+                    <td class="right">0-10 år</td>
+                    <td class="right">98,4744</td>
+                    <td></td>
+                    <td></td>
+                    <td class="right">1,6700 %</td>
+
+
+
+
+
+
+
+                </tr>
+
+            </table>
+
+
+
+            <h4 id="tblheader_4">
+                <img class="tooltip" src="/netbank/res/icon_help_nb.gif" alt="X2" title="X2" id="tooltip19Ctx" /><span class="tooltipLabel">
+                    F-kort
+                </span>
+            </h4>
+
+            <table class="printtable">
+                <thead>
+                    <tr>
+
+
+
+
+                        <th class="left" style="width: 17%; vertical-align: top;">
+                            <img class="tooltip" src="/netbank/res/icon_help.gif" alt="Her vises den dato, hvor lï¿½net nï¿½ste gang skal refinansieres." title="Her vises den dato, hvor lï¿½net nï¿½ste gang skal refinansieres." id="tooltip20Ctx" /><span class="tooltipLabel">
+                                Refinansieringsdato
+                            </span>
+                        </th>
+                        <th class="left" style="width: 12%; vertical-align: top;">
+                            <img class="tooltip" src="/netbank/res/icon_help.gif" alt="Et lï¿½ns lï¿½betid er det antal ï¿½r, som lï¿½net lï¿½ber." title="Et lï¿½ns lï¿½betid er det antal ï¿½r, som lï¿½net lï¿½ber." id="tooltip21Ctx" /><span class="tooltipLabel">
+                                Løbetid
+                            </span>
+                        </th>
+                        <th class="right" style="width: 12%; vertical-align: top;">
+                            <img class="tooltip" src="/netbank/res/icon_help.gif" alt="Renten pï¿½ BoligXlï¿½n(XV) med 5-, 10-, 20- eller 30-ï¿½rigt renteloft udregnes som et gennemsnit af Nationalbankens 6-mï¿½neders CIBOR-rentesats i de sidste 5 bankdage frem til og med 4. sidste bankdag i henholdsvis juni og december." title="Renten pï¿½ BoligXlï¿½n(XV) med 5-, 10-, 20- eller 30-ï¿½rigt renteloft udregnes som et gennemsnit af Nationalbankens 6-mï¿½neders CIBOR-rentesats i de sidste 5 bankdage frem til og med 4. sidste bankdag i henholdsvis juni og december." id="tooltip22Ctx" /><span class="tooltipLabel">
+                                Renteprocent
+                            </span>
+                        </th>
+                        <th class="right" style="width: 12%; vertical-align: top;">
+                            <img class="tooltip" src="/netbank/res/icon_help.gif" alt="Dette er perioden, hvor man ikke betaler afdrag pï¿½ lï¿½net. Totalkredit har lï¿½n med op til 10 ï¿½rs afdragsfrihed." title="Dette er perioden, hvor man ikke betaler afdrag pï¿½ lï¿½net. Totalkredit har lï¿½n med op til 10 ï¿½rs afdragsfrihed." id="tooltip23Ctx" /><span class="tooltipLabel">
+                                Afdragsfrihed
+                            </span>
+                        </th>
+                        <th class="right" style="width: 12%; vertical-align: top;">
+                            <img class="tooltip" src="/netbank/res/icon_help.gif" alt="Her vises tilbudskursen for det nye lï¿½n. Det er den kurs, som du vil kunne fï¿½ et lï¿½netilbud pï¿½ baggrund af i dit pengeinstitut, hvis du gï¿½r i dit pengeinstitut samme dag." title="Her vises tilbudskursen for det nye lï¿½n. Det er den kurs, som du vil kunne fï¿½ et lï¿½netilbud pï¿½ baggrund af i dit pengeinstitut, hvis du gï¿½r i dit pengeinstitut samme dag." id="tooltip24Ctx" /><span class="tooltipLabel">
+                                Tilbudskurs
+                            </span>
+                        </th>
+                        <th class="right" style="width: 12%; vertical-align: top;">
+                            <img class="tooltip" src="/netbank/res/icon_help.gif" alt="Fondskoden identificerer entydigt de enkelte grupper vï¿½rdipapirer pï¿½ Vï¿½rdipapircentralen." title="Fondskoden identificerer entydigt de enkelte grupper vï¿½rdipapirer pï¿½ Vï¿½rdipapircentralen." id="tooltip25Ctx" /><span class="tooltipLabel">
+                                Fondskode
+                            </span>
+                        </th>
+                        <th style="width: 7%"></th>
+                        <th class="right" style="width: 13%; vertical-align: top;">
+                            <img class="tooltip" src="/netbank/res/icon_help.gif" alt="Den effektive rente er den pris, det faktisk koster at lï¿½ne. Ud over lï¿½nerenten er der i den effektive rente medregnet kurstab, bidrag, kurtage og stiftelsesomkostninger." title="Den effektive rente er den pris, det faktisk koster at lï¿½ne. Ud over lï¿½nerenten er der i den effektive rente medregnet kurstab, bidrag, kurtage og stiftelsesomkostninger." id="tooltip26Ctx" /><span class="tooltipLabel">
+                                Effektiv rente<br />efter skat
+                            </span>
+                        </th>
+
+
+
+
+
+                    </tr>
+                </thead>
+
+                <tr>
+
+
+
+
+                    <td class="left">30.06.2019</td>
+                    <td class="left">30 år</td>
+                    <td class="right">0,2259 %</td>
+                    <td class="right">0-10 år</td>
+                    <td class="right">101,0700</td>
+                    <td class="right">0950947</td>
+                    <td></td>
+                    <td class="right">1,0700 %</td>
+
+
+
+
+
+                </tr>
+
+            </table>
+
+
+        </div>
+
+
+        <div class="toolbar">
+            <div class="left" style="float: left;"><a href="#top">Til toppen</a></div>
+
+            <div class="right" style="float: right;"><a href="#" onclick="window.print();"><img src="/netbank/res/icon_print.gif" alt="Udskriv" /></a> <a href="#" onclick="window.print();" style="vertical-align: top;">Udskriv</a></div>
+
+            <div class="center"><a href="#" onclick="openWindow('disclaimer', '/netbank/BetingelserOgForbehold.do')">Betingelser og forbehold</a></div>
+        </div>
+
+        <div class="print-disclaimer">
+
+
+
+
+            <p>
+                <b>Generelt</b><br />
+
+                Alle beregninger er baserede på den officielle gennemsnitskurs fra NASDAQ OMX Nordic, København.
+            </p>
+
+            <p>Beregningerne bygger på simplificerede forudsætninger, og resultatet er derfor alene vejledende og uden forpligtelse og ansvar for Totalkredit og det låneformidlende pengeinstitut.</p>
+
+            <p>Totalkredit tager forbehold for fejl og mangler i oplysninger og beregninger.</p>
+
+            <p>Beregningerne kan ikke opfattes som låntilbud. Kontakt dit lokale pengeinstitut, hvis du ønsker et konkret låntilbud.</p>
+
+            <p>Du kan læse om de forskellige låntyper på <a href="http://www.totalkredit.dk/TKdk/page?action=page&amp;pageId=176" target="_blank">www.totalkredit.dk</a></p>
+
+            <p>
+                <b>Omkostninger mv.</b><br />
+                Oplysningerne baserer sig på låns aktuelle rente og omkostninger. For lån med variabel rente ændrer renten sig i løbetiden. Der kan også ske ændringer i lånets øvrige omkostninger, fx bidragssatsen. Oplysningerne gælder derfor kun, indtil der måtte ske sådanne ændringer.
+            </p>
+
+            <P>Den oplyste bidragssats på nye lån er vejledende. Ved endelig låneudmåling bliver satsen beregnet med udgangspunkt i lånets faktiske sikkerhedsmæssige placering i ejendommen.</P>
+
+            <P>Omkostninger ved optagelse og eventuel indfrielse er medfinansieret i beregningerne og der er medtaget omkostninger til variabel og fast tinglysningsafgift. Ved beregning på omlægning af lån overføres tinglysningsafgift fra eventuelle eksisterende lån.</P>
+
+            <p>Ekspeditionsgebyr pengeinstitut fastsættes i den enkelte sag af det formidlende pengeinstitut og er anslået til 4.000 kr. i beregningen.</p>
+
+            <P>Alle de medtagne omkostninger er anslåede og vil derfor kunne afvige fra et konkret låntilbud.</P>
+
+            <p>
+                <b>Beskatning</b><br />
+                Der er anvendt gældende skattesats for indeværende år for den valgte bopælskommune. Skattesatsen er inkl. skat til stat, kommune og kirke samt sundhedsbidrag. Hvor der ikke er oplyst bopælskommune, er der anvendt en gennemsnitlig sats.
+            </p>
+
+            <p>Hvis beregningen omfatter indfrielse af eksisterende lån, og der er anvendt straksindfrielse som indfrielsesmetode, er skatteværdien af differencerenten ikke indregnet.</p>
+
+            <p>Ved indfrielse af kontantlån før lånets udløb er der som udgangspunkt skattepligt af en eventuel opnået kursgevinst ved indfrielsen. Der gælder særlige undtagelser for denne regel ved indfrielse i forbindelse med ejerskifte. Skat af eventuel kursgevinst ved indfrielse af kontantlån er ikke taget med i beregningerne.</p>
+
+            <p>
+                <b>Særligt om boligkøbsberegninger</b><br />
+                Beregningerne om boligkøb er skønsmæssige og foretaget på baggrund af de indtastede oplysninger om indtægter og udgifter. Du bør foretage beregningen igen, hvis der sker ændringer i disse forudsætninger.
+            </p>
+
+            <p>Beregningerne forudsætter uændrede skatteforhold og tager ikke højde for eventuel restskat.</p>
+
+            <p>Ejendomsværdiskatten er beregnet ud fra den anslåede kontantpris.</p>
+
+            <p>
+                <b>Særligt om refinansieringsberegninger</b><br />
+                Ændring af refinansieringsfrekvens og øvrige vilkår i refinansieringsaftalen kan kun ske ved at indgå en ny refinansieringsaftale i forbindelse med en refinansiering.
+            </p>
+
+            <p>Rentesatsen pr. år er skønsmæssigt beregnet ud fra lånets refinansieringsdato. Kursen på lånets obligationer på refinansieringstidspunktet er afgørende for rentesatsen.</p>
+
+            <p>
+                <b>Særligt om evt. kurstabsfradrag</b><br />
+                En konto knyttet til et lån fra en før den 1. januar 1996 foretaget omlægning af et kontantlån optaget forud for den 19. maj 1993. Kontoens indestående er udtryk for forskellen mellem det gamle kontantlåns kontantrestgæld og obligationsrestgæld. Fradraget fordeles med lige store portioner over det nye låns løbetid.
+            </p>
+
+            <p>Hvis løbetiden for det nye lån er kortere end restløbetiden på det lån, der skal indfries, kan der ikke ske overførsel af kurstabsfradrag. Der kan heller ikke overføres kurstabsfradrag, hvis det årlige beløb efter fordeling over det nye låns løbetid bliver mindre end 100 kr.</p>
+
+            <form action="#" onsubmit="window.close()">
+                <div style="padding-bottom: 10px;" class="field">
+                    <input class="button" type="submit" title="Klik her for at lukke dette vindue" value="Luk vindue" />
+                </div>
+            </form>
+        </div>
+
+    </div>
+    <script type="text/javascript">
+/* <![CDATA[ */
+        new YAHOO.widget.Tooltip("tooltip0", { context: "tooltip0Ctx", autodismissdelay: 60000, monitorresize: false });
+        new YAHOO.widget.Tooltip("tooltip1", { context: "tooltip1Ctx", autodismissdelay: 60000, monitorresize: false });
+        new YAHOO.widget.Tooltip("tooltip2", { context: "tooltip2Ctx", autodismissdelay: 60000, monitorresize: false });
+        new YAHOO.widget.Tooltip("tooltip3", { context: "tooltip3Ctx", autodismissdelay: 60000, monitorresize: false });
+        new YAHOO.widget.Tooltip("tooltip4", { context: "tooltip4Ctx", autodismissdelay: 60000, monitorresize: false });
+        new YAHOO.widget.Tooltip("tooltip5", { context: "tooltip5Ctx", autodismissdelay: 60000, monitorresize: false });
+        new YAHOO.widget.Tooltip("tooltip6", { context: "tooltip6Ctx", autodismissdelay: 60000, monitorresize: false });
+        new YAHOO.widget.Tooltip("tooltip7", { context: "tooltip7Ctx", autodismissdelay: 60000, monitorresize: false });
+        new YAHOO.widget.Tooltip("tooltip8", { context: "tooltip8Ctx", autodismissdelay: 60000, monitorresize: false });
+        new YAHOO.widget.Tooltip("tooltip9", { context: "tooltip9Ctx", autodismissdelay: 60000, monitorresize: false });
+        new YAHOO.widget.Tooltip("tooltip10", { context: "tooltip10Ctx", autodismissdelay: 60000, monitorresize: false });
+        new YAHOO.widget.Tooltip("tooltip11", { context: "tooltip11Ctx", autodismissdelay: 60000, monitorresize: false });
+        new YAHOO.widget.Tooltip("tooltip12", { context: "tooltip12Ctx", autodismissdelay: 60000, monitorresize: false });
+        new YAHOO.widget.Tooltip("tooltip13", { context: "tooltip13Ctx", autodismissdelay: 60000, monitorresize: false });
+        new YAHOO.widget.Tooltip("tooltip14", { context: "tooltip14Ctx", autodismissdelay: 60000, monitorresize: false });
+        new YAHOO.widget.Tooltip("tooltip15", { context: "tooltip15Ctx", autodismissdelay: 60000, monitorresize: false });
+        new YAHOO.widget.Tooltip("tooltip16", { context: "tooltip16Ctx", autodismissdelay: 60000, monitorresize: false });
+        new YAHOO.widget.Tooltip("tooltip17", { context: "tooltip17Ctx", autodismissdelay: 60000, monitorresize: false });
+        new YAHOO.widget.Tooltip("tooltip18", { context: "tooltip18Ctx", autodismissdelay: 60000, monitorresize: false });
+        new YAHOO.widget.Tooltip("tooltip19", { context: "tooltip19Ctx", autodismissdelay: 60000, monitorresize: false });
+        new YAHOO.widget.Tooltip("tooltip20", { context: "tooltip20Ctx", autodismissdelay: 60000, monitorresize: false });
+        new YAHOO.widget.Tooltip("tooltip21", { context: "tooltip21Ctx", autodismissdelay: 60000, monitorresize: false });
+        new YAHOO.widget.Tooltip("tooltip22", { context: "tooltip22Ctx", autodismissdelay: 60000, monitorresize: false });
+        new YAHOO.widget.Tooltip("tooltip23", { context: "tooltip23Ctx", autodismissdelay: 60000, monitorresize: false });
+        new YAHOO.widget.Tooltip("tooltip24", { context: "tooltip24Ctx", autodismissdelay: 60000, monitorresize: false });
+        new YAHOO.widget.Tooltip("tooltip25", { context: "tooltip25Ctx", autodismissdelay: 60000, monitorresize: false });
+        new YAHOO.widget.Tooltip("tooltip26", { context: "tooltip26Ctx", autodismissdelay: 60000, monitorresize: false });
+/* ]]> */</script>
+    <script type='text/javascript'>
+/* <![CDATA[ */
+        var s_account = "nykreditnetbanktotalkreditdk";
+/* ]]> */</script>
+    <script type='text/javascript' src='/netbank/js/s_code.js'></script>
+    <script type='text/javascript'>
+/* <![CDATA[ */
+        s.pageName = document.title
+        var s_code = s.t(); if (s_code) document.write(s_code);
+        if (navigator.appVersion.indexOf('MSIE') >= 0) document.write(unescape('%3C') + '\!-' + '-');
+/* ]]> */</script>
+
+</body>
+</html>

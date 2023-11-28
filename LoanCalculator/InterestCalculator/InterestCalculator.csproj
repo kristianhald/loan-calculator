@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3757C146-0E9D-41E0-AB83-7ABFDF3C98EE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Koolawong.InterestCalculator</RootNamespace>
+    <AssemblyName>Koolawong.InterestCalculator</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Production|AnyCPU'">
+    <OutputPath>bin\Production\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BrfKredit\AfdragsFrit\FastRenteContributionRateStairCase.cs" />
+    <Compile Include="BrfKredit\AfdragsFrit\KortRenteContributionRateStairCase.cs" />
+    <Compile Include="BrfKredit\AfdragsFrit\VariabelRenteContributionRateStairCase.cs" />
+    <Compile Include="BrfKredit\Afdrag\FastRenteContributionRateStairCase.cs" />
+    <Compile Include="BrfKredit\Afdrag\KortRenteContributionRateStairCase.cs" />
+    <Compile Include="BrfKredit\Afdrag\VariabelRenteContributionRateStairCase.cs" />
+    <Compile Include="Extensions\IEnumerableExtensions.cs" />
+    <Compile Include="Model\Inside\Simple\BankAndMortgagePayout.cs" />
+    <Compile Include="Model\Inside\Simple\BankPayout.cs" />
+    <Compile Include="Model\Inside\Simple\OwnPayment.cs" />
+    <Compile Include="Model\Inside\Simple\TotalPayout.cs" />
+    <Compile Include="Model\Inside\Simple\UpperBankLoanLimit.cs" />
+    <Compile Include="Model\Inside\Simple\UpperMortgageLimit.cs" />
+    <Compile Include="Model\Outside\Simple\Savings.cs" />
+    <Compile Include="Model\Outside\Simple\UpperBankLoanLimitPercentage.cs" />
+    <Compile Include="Model\Outside\Simple\UpperMortgageLimitPercentage.cs" />
+    <Compile Include="Services\Data\Loan.cs" />
+    <Compile Include="Services\Data\LoanInformation.cs" />
+    <Compile Include="Services\Data\PayoutDistribution.cs" />
+    <Compile Include="Services\LoanService.cs" />
+    <Compile Include="Model\Inside\Complex\PeriodPaymentPlan.cs" />
+    <Compile Include="Model\Inside\Complex\TermPaymentPlan.cs" />
+    <Compile Include="Model\Inside\Complex\YearlyPaymentPlan.cs" />
+    <Compile Include="Model\Inside\Simple\CalculationTerm.cs" />
+    <Compile Include="Model\Inside\Simple\Contribution.cs" />
+    <Compile Include="Model\Inside\Simple\Interest.cs" />
+    <Compile Include="Model\Inside\Simple\MonthInYear.cs" />
+    <Compile Include="Model\Inside\Simple\MonthsPerTerm.cs" />
+    <Compile Include="Model\Inside\Simple\PaymentLeft.cs" />
+    <Compile Include="Model\Inside\Simple\PeriodicalPayment.cs" />
+    <Compile Include="Model\Inside\Simple\Ratio.cs" />
+    <Compile Include="Model\Inside\Simple\Repayment.cs" />
+    <Compile Include="Model\Inside\Complex\Term.cs" />
+    <Compile Include="Model\Inside\Simple\TermContributionRate.cs" />
+    <Compile Include="Model\Inside\Simple\TermDays.cs" />
+    <Compile Include="Model\Inside\Simple\TermInterestRate.cs" />
+    <Compile Include="Model\Inside\Simple\TermOffset.cs" />
+    <Compile Include="Model\Inside\Simple\TermPayment.cs" />
+    <Compile Include="Model\Inside\Simple\TermRatio.cs" />
+    <Compile Include="Model\Inside\Simple\Terms.cs" />
+    <Compile Include="Model\Inside\Simple\Year.cs" />
+    <Compile Include="Model\Outside\Simple\CalculationDate.cs" />
+    <Compile Include="Model\Outside\Simple\PriorityLoan.cs" />
+    <Compile Include="Model\Outside\Simple\YearlyContributionRate.cs" />
+    <Compile Include="Model\Outside\Complex\ContributionRateStairCase.cs" />
+    <Compile Include="Model\Outside\Complex\ContributionRateStep.cs" />
+    <Compile Include="Model\Outside\Simple\ExchangeRate.cs" />
+    <Compile Include="Model\Outside\Simple\HouseValue.cs" />
+    <Compile Include="Model\Inside\Simple\Principal.cs" />
+    <Compile Include="Model\Outside\Simple\LoanToValue.cs" />
+    <Compile Include="Model\Inside\Simple\ValueOfRate.cs" />
+    <Compile Include="Model\Outside\Simple\Period.cs" />
+    <Compile Include="Model\Outside\Simple\TermsPerYear.cs" />
+    <Compile Include="Model\Outside\Simple\YearlyInterestRate.cs" />
+    <Compile Include="NordeaKredit\AfdragsFrit\FastRenteContributionRateStairCase.cs" />
+    <Compile Include="NordeaKredit\AfdragsFrit\FKortS3S4S5ContributionRateStairCase.cs" />
+    <Compile Include="NordeaKredit\AfdragsFrit\S1S2ContributionRateStairCase.cs" />
+    <Compile Include="NordeaKredit\Afdrag\F1F2ContributionRateStairCase.cs" />
+    <Compile Include="NordeaKredit\Afdrag\FastRenteContributionRateStairCase.cs" />
+    <Compile Include="NordeaKredit\Afdrag\FKortF3F4F5ContributionRateStairCase.cs" />
+    <Compile Include="Model\Inside\Simple\MortgagePayout.cs" />
+    <Compile Include="RealkreditDanmark\AfdragsFrit\FastRenteContributionRateStairCase.cs" />
+    <Compile Include="RealkreditDanmark\AfdragsFrit\FlexKContributionRateStairCase.cs" />
+    <Compile Include="RealkreditDanmark\AfdragsFrit\FlexTContributionRateStairCase.cs" />
+    <Compile Include="RealkreditDanmark\Afdrag\FastRenteContributionRateStairCase.cs" />
+    <Compile Include="RealkreditDanmark\Afdrag\FlexKContributionRateStairCase.cs" />
+    <Compile Include="RealkreditDanmark\Afdrag\FlexTContributionRateStairCase.cs" />
+    <Compile Include="TotalKredit\AfdragsFrit\01032016\F1F2ContributionRateStairCase.cs" />
+    <Compile Include="TotalKredit\AfdragsFrit\01032016\FastRenteContributionRateStairCase.cs" />
+    <Compile Include="TotalKredit\AfdragsFrit\01032016\RenteMaxF3ToF10FKortContributionRateStairCase.cs" />
+    <Compile Include="TotalKredit\AfdragsFrit\01072016\F1F2ContributionRateStairCase.cs" />
+    <Compile Include="TotalKredit\AfdragsFrit\01072016\F3F4ContributionRateStairCase.cs" />
+    <Compile Include="TotalKredit\AfdragsFrit\01072016\FastRenteContributionRateStairCase.cs" />
+    <Compile Include="TotalKredit\AfdragsFrit\01072016\FKortContributionRateStairCase.cs" />
+    <Compile Include="TotalKredit\AfdragsFrit\01072016\RenteMaxF5F10ContributionRateStairCase.cs" />
+    <Compile Include="TotalKredit\Afdrag\01032016\F1F2ContributionRateStairCase.cs" />
+    <Compile Include="TotalKredit\Afdrag\01032016\FastRenteContributionRateStairCase.cs" />
+    <Compile Include="TotalKredit\Afdrag\01032016\RenteMaxF3ToF10FKortContributionRateStairCase.cs" />
+    <Compile Include="TotalKredit\Afdrag\01072016\F1F2ContributionRateStairCase.cs" />
+    <Compile Include="TotalKredit\Afdrag\01072016\F3F4ContributionRateStairCase.cs" />
+    <Compile Include="TotalKredit\Afdrag\01072016\FastRenteContributionRateStairCase.cs" />
+    <Compile Include="TotalKredit\Afdrag\01072016\FKortContributionRateStairCase.cs" />
+    <Compile Include="TotalKredit\Afdrag\01072016\RenteMaxF5F10ContributionRateStairCase.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Issues with the code.txt" />
+    <Content Include="Library Rules.txt" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

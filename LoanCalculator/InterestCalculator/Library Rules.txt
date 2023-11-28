@@ -1,0 +1,24 @@
+﻿		Rules for working within the library
+* There are simple types and complex types
+  - Simple types are known by being representable by a single .NET primitive
+  - Complex types are known by having to be represented by several or non .NET primitives
+
+* All types have private constructors
+
+* Simple types are allowed to have:
+	public static explicit operator <primitive>(<simpletype> value)
+  No implicit is allowed
+
+* There are two types of simple/complex types:
+  - Information is provided directly to the simple/complex type. The type is said to have been created outside the domain
+  - Information is calculated from other types. The type is said to be created inside the domain
+
+* 'From' methods on types from inside the domain, are only allowed to be called from inside other simple types
+
+* All types may have 'Calculate' methods as long as the calculation being made is not made between two simple types
+  There has to be atleast three simple types or a single complex type as part of the calculation
+
+* A cast from a simple type to a .NET primitive is only allowed in a 'From' method even if this 'From' is private
+
+* Using 'From' method on any type is not allowed in the domain. All types must either be provided from outside the domain
+  or be created via calculations from other types

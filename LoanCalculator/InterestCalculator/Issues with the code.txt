@@ -1,0 +1,7 @@
+﻿		Issues with the code
+* The knowledge of how to calculate the different types is not located in the result type, 
+  but in one of the components in the calculation.
+  - The benefit of this is that we are able to develop in accordance with the math that the domain uses
+  - The cost is that, if we need to change the calculation or use another type as one of the components,
+    then we need to remove the logic from one of the components and add it to a new one, instead of just
+	changing the input type.
